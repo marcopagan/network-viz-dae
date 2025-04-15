@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Viz</title>
+</head>
+<body style="background-color: #D5CDDD">
+  <style>
+    #legend{position: absolute;font-family: Helvetica, sans-serif; line-height: .75; *{padding: 0; margin: 0;} section{display: flex; gap: 8px; align-items: center;}}
+    #network-tooltip{position: absolute; display: block; opacity: 0; background-color: #583c6e; border-radius: 2px; padding: 8px; max-width: 450px; height: auto; font-family: Helvetica, sans-serif; font-size: 16px; color: white;}
+    #tlp-name{display: block; font-weight: bold;}
+    #tlp-loc{display: block; padding-top: 8px;}
+    #tlp-desc{display: block; font-style: italic;}
+    circle, text{cursor: pointer}
+  </style>
+  <div id="legend">
+    <h3> </h3><br>
+    <h4>Network Legend</h4>
+    <br>
+    <section>
+      <div style="width: 20px; height: 20px; background-color: #a5b4ce; border: 1px solid #281933;"></div>
+      <p>International</p>
+    </section><br>
+    <section>
+      <div style="width: 20px; height: 20px; background-color: #bca5ce; border: 1px solid #281933;"></div>
+      <p>National</p>
+    </section><br>
+    <section>
+      <div style="width: 20px; height: 20px; background-color: #cea5c2; border: 1px solid #281933;"></div>
+      <p>Local</p>
+    </section>
+  </div>
+
+  <div id="network-wrapper"></div>
+  <div id="network-tooltip"></div>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+
+  <script>
+  // GET TOOLTIP
+  let tooltip = document.querySelector("#network-tooltip");
+  let spanName = document.createElement("span");
+  spanName.id = "tlp-name";
+  tooltip.appendChild(spanName);
+  let spanDesc = document.createElement("span");
+  spanDesc.id = "tlp-desc";
+  tooltip.appendChild(spanDesc);
+  let spanLoc = document.createElement("span");
+  spanLoc.id = "tlp-loc";
+  tooltip.appendChild(spanLoc);
+    
+
+  d3.json("data.json").then(function(data) {
+    // CONSTANTS
+    const isPrint = false;
+    const width = 2400;
+    const height = 1200;
+    const margin = 20;
+    const cwhite = "#D5CDDD";
+    const clight = "#bca5ce";
+    const cmid = "#734E8F";
+    const cdark = "#281933";
+    const tooltip = d3.select("#network-tooltip");
+    const tlpName = d3.select("#tlp-name");
+    const tlpLoc = d3.select("#tlp-loc");
+    const tlpDesc = d3.select("#tlp-desc");
+
+    const colorByType = {
+      international: "#a5b4ce",
+      national: "#bca5ce", 
+      local: "#cea5c2"
+    };
+
+    // PACKING
+    const pack = data => d3.pack()
+    .size([width - margin * 2, height - margin * 2])
+    .padding(8)
+    (d3.hierarchy(data)
+    .sum(d => d.value)
+    .sort((a, b) => b.value - a.value));
+    const root = pack(data);
+
+    // SVG SETTINGS
+    const svg = d3.select("#network-wrapper").append("svg")
+      .attr("width", width)
+      .attr("height", height)
+      .attr("viewBox", [-margin, -margin, width, height])
+      .attr("style", `width: 100%; height: auto; font: 12px Helvetica, sans-serif; font-weight: bold; max-width: 1200px`)
+      .attr("text-anchor", "middle");
+
+    // CREATING Gs
+    const node = svg.append("g")
+      .selectAll("g")
+      .data(root.descendants())
+      .join("g")
+      .attr("transform", d => `translate(${d.x},${d.y})`);
+
+    // CREATING CIRCLES
+    const circles = node.append("circle")
+      .attr("r", d => d.r)
+      .attr("fill", d => {
+        const typeNode = d.ancestors().find(a => a.data.type);
+        const topType = typeNode ? typeNode.data.type : null;
+        return d.children ? cwhite : colorByType[topType] || clight;
+      })
+      //.attr("fill", d => d.children ? cwhite : clight)
+      .attr("stroke", d => d.children ? cmid : cdark)
+      .attr("stroke-width", "1px")
+      .on("mouseover", function(event, d) {
+        handleMouseOver(event, d, d3.select(this));
+      })
+      .on("mousemove", handleMouseMove)
+      .on("mouseout", function(event, d) {
+        handleMouseOut(event, d, d3.select(this));
+      });
+
+
+
+
+    // ADDING THE TEXT LABELS
+    const labels = node.filter(d => !d.children)
+      .append("text")
+      .style("text-anchor", "middle")
+      .style("fill", cdark)
+      .selectAll("tspan")
+      //.data(d => d.data.name.split(" "))
+      .data(function(d) {
+        if(!isPrint){
+          let regex = /[a-zA-Z0-9]/g;
+          let text = d.data.name;
+          let textLen = text.match(regex).length;
+          if(textLen >= 14){
+            text = text.substring(0, 14);
+            text += "…";
+          }
+          return text.split(" ")
+        }else{
+          return d.data.name.split(" ")
+        }
+      })
+      .join("tspan")
+      .attr("x", 0)
+      .attr("y", (d, i, nodes) => {
+        const lineHeight = 1.2;
+        const totalHeight = nodes.length * lineHeight;
+        const centerYOffset = (1 - lineHeight) / 2;
+        const startY = -totalHeight / 2 + centerYOffset + (lineHeight * (i + .8));
+        return startY + "em";
+      })
+      .text(d => d)
+      .on("mouseover", function(event, d) {
+        let circle = d3.select(this.parentNode.parentNode).select("circle");
+        handleMouseOver(event, d3.select(this.parentNode.parentNode).datum(), circle);
+      })
+      .on("mousemove", function(event) {
+        handleMouseMove(event);
+      })
+      .on("mouseout", function(event, d) {
+        let circle = d3.select(this.parentNode.parentNode).select("circle");
+        handleMouseOut(event, d3.select(this.parentNode.parentNode).datum(), circle);
+      });
+
+
+
+
+    // FUNCTIONS
+    function handleMouseOver(event, d, element) {
+      if (d.data.info != undefined) {
+        tooltip.transition()
+          .duration(200)
+          .style("opacity", 1);
+        tooltip
+          .style("left", (event.pageX + 10) + "px")
+          .style("top", (event.pageY - 28) + "px");
+        tlpName.html(d.data.info.split("§")[0]);
+        tlpLoc.html(d.data.info.split("§")[1]);
+        tlpDesc.html(d.data.info.split("§")[2]);
+      }
+      element.attr("fill", d => d.children ? cwhite : cmid)
+    }
+
+    function handleMouseMove(event) {
+      tooltip.style("left", (event.pageX + 10) + "px")
+        .style("top", (event.pageY - 28) + "px");
+    }
+
+    function handleMouseOut(event, d, element) {
+      tooltip.transition()
+        .duration(200)
+        .style("opacity", 0);
+      
+      element.attr("fill", d => {
+        const typeNode = d.ancestors().find(a => a.data.type);
+        const topType = typeNode ? typeNode.data.type : null;
+        return d.children ? cwhite : colorByType[topType] || clight;
+      })
+      //element.attr("fill", d => d.children ? cwhite : clight)
+    }
+
+    return svg.node();
+  });
+
+
+
+
+
+
+
+
+
+
+  // SAVING EVENT AND FUNCTION
+  document.addEventListener('keydown', function(event) {
+    if (event.key === 'e') {
+      console.log("Saving SVG...");
+      exportSVG();
+    }
+  });
+  function exportSVG() {
+  const svgElement = document.querySelector("#network-wrapper svg");
+  if (svgElement) {
+    const svgString = new XMLSerializer().serializeToString(svgElement);
+    const blob = new Blob([svgString], { type: "image/svg+xml;charset=utf-8" });
+    const url = URL.createObjectURL(blob);
+    const downloadLink = document.createElement('a');
+    downloadLink.href = url;
+    downloadLink.download = "network_visualization.svg";
+    document.body.appendChild(downloadLink);
+    downloadLink.click();
+    document.body.removeChild(downloadLink);
+    URL.revokeObjectURL(url);
+    console.log("SVG export complete.");
+  } else {
+    console.error("Cannot find SVG element.");
+  }
+}
+  </script>
+</body>
+</html>

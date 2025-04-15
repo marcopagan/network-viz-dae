@@ -1,0 +1,1205 @@
+{
+    "type": "international",
+    "children": [
+        {
+            "name": "Aalto University, School of Arts, Design & Architecture",
+            "info": "Aalto University, School of Arts, Design & Architecture \u00a7 Helsinki (FI) \u00a7 ",
+            "value": 20
+        },
+        {
+            "name": "ADO Mini",
+            "info": "ADO Mini \u00a7 New York City (US) \u00a7 Retail & Consumer Goods",
+            "value": 20
+        },
+        {
+            "name": "Air France ",
+            "info": "Air France  \u00a7 Paris (FR) \u00a7 Transportation",
+            "value": 20
+        },
+        {
+            "name": "Aliaxis",
+            "info": "Aliaxis \u00a7 Brussels (BE) \u00a7 Technology & Electronics",
+            "value": 20
+        },
+        {
+            "name": "Ar\u00e7elik",
+            "info": "Ar\u00e7elik \u00a7 Istanbul (TR) \u00a7 Technology & Electronics",
+            "value": 20
+        },
+        {
+            "name": "Architecture at the Edge\u00a0",
+            "info": "Architecture at the Edge\u00a0 \u00a7 IE \u00a7 ",
+            "value": 20
+        },
+        {
+            "name": "Architectuul\u00a0",
+            "info": "Architectuul\u00a0 \u00a7 DE \u00a7 ",
+            "value": 20
+        },
+        {
+            "name": "Architekt?ros fondas\u00a0",
+            "info": "Architekt?ros fondas\u00a0 \u00a7 LT \u00a7 ",
+            "value": 20
+        },
+        {
+            "name": "Art Academy of Latvia\u00a0",
+            "info": "Art Academy of Latvia\u00a0 \u00a7 LV \u00a7 ",
+            "value": 20
+        },
+        {
+            "name": "Art Center College of Design Pasadena",
+            "info": "Art Center College of Design Pasadena \u00a7 US \u00a7 Education and Research",
+            "value": 20
+        },
+        {
+            "name": "AS Adventure",
+            "info": "AS Adventure \u00a7 Antwerp (BE) \u00a7 ",
+            "value": 20
+        },
+        {
+            "name": "Atelier LUMA",
+            "info": "Atelier LUMA \u00a7 Arles (FR) \u00a7 Cultural Institutions & Museums",
+            "value": 20
+        },
+        {
+            "name": "Barleti University\u00a0",
+            "info": "Barleti University\u00a0 \u00a7 AL \u00a7 Education and Research",
+            "value": 20
+        },
+        {
+            "name": "Bauhaus Erde",
+            "info": "Bauhaus Erde \u00a7 DE \u00a7 ",
+            "value": 20
+        },
+        {
+            "name": "Bauhaus Universit\u00e4t Weimar",
+            "info": "Bauhaus Universit\u00e4t Weimar \u00a7 Weimar (DE) \u00a7 Education and Research",
+            "value": 20
+        },
+        {
+            "name": "Beta - Romanian Order of Architects",
+            "info": "Beta - Romanian Order of Architects \u00a7 RO \u00a7 ",
+            "value": 20
+        },
+        {
+            "name": "Bezalel Academy of Arts & Design ",
+            "info": "Bezalel Academy of Arts & Design  \u00a7 Tel Aviv (IL) \u00a7 Education and Research",
+            "value": 20
+        },
+        {
+            "name": "BINA Association of Belgrade Architects",
+            "info": "BINA Association of Belgrade Architects \u00a7 RS \u00a7 ",
+            "value": 20
+        },
+        {
+            "name": "Bio Design Challenge",
+            "info": "Bio Design Challenge \u00a7 New York City (US) \u00a7 ",
+            "value": 20
+        },
+        {
+            "name": "Birmingham City University",
+            "info": "Birmingham City University \u00a7 UK \u00a7 Onderwijs & Onderzoek",
+            "value": 20
+        },
+        {
+            "name": "Brug Giebichenstein Halle",
+            "info": "Brug Giebichenstein Halle \u00a7 DE \u00a7 ",
+            "value": 20
+        },
+        {
+            "name": "Cambridge University (Center for Natural Material Innovation)",
+            "info": "Cambridge University (Center for Natural Material Innovation) \u00a7 UK \u00a7 Onderwijs & Onderzoek",
+            "value": 20
+        },
+        {
+            "name": "Campus MaNa",
+            "info": "Campus MaNa \u00a7 Champignelles (FR) \u00a7 ",
+            "value": 20
+        },
+        {
+            "name": "Caragiale National University",
+            "info": "Caragiale National University \u00a7 RO \u00a7 Onderwijs & Onderzoek",
+            "value": 20
+        },
+        {
+            "name": "Chelsea College of Art & Design (Camberwell College (UAL)",
+            "info": "Chelsea College of Art & Design (Camberwell College (UAL) \u00a7 UK \u00a7 ",
+            "value": 20
+        },
+        {
+            "name": "Copenhagen Architecture Festival\u00a0",
+            "info": "Copenhagen Architecture Festival\u00a0 \u00a7 DK \u00a7 ",
+            "value": 20
+        },
+        {
+            "name": "Cosentino",
+            "info": "Cosentino \u00a7 Hu\u00e9rcal-Overa (ES) \u00a7 ",
+            "value": 20
+        },
+        {
+            "name": "Design School Kolding",
+            "info": "Design School Kolding \u00a7 Copenhagen (DK) \u00a7 Education and Research",
+            "value": 20
+        },
+        {
+            "name": "dpr-barcelona\u00a0",
+            "info": "dpr-barcelona\u00a0 \u00a7 Barcelona (ES) \u00a7 ",
+            "value": 20
+        },
+        {
+            "name": "E.ON",
+            "info": "E.ON \u00a7 Essen (DE) \u00a7 Energy",
+            "value": 20
+        },
+        {
+            "name": "Ecole Cantonale d'Art de Lausanne",
+            "info": "Ecole Cantonale d'Art de Lausanne \u00a7 Lausanne (CH) \u00a7 Education and Research",
+            "value": 20
+        },
+        {
+            "name": "Ecole Nationale Superieure de Creation Industrielle  (ENSCI)",
+            "info": "Ecole Nationale Superieure de Creation Industrielle  (ENSCI) \u00a7 Paris (FR) \u00a7 Education and Research",
+            "value": 20
+        },
+        {
+            "name": "Ecole Nationale Superieure Des Arts Decoratifs (ENSAD)",
+            "info": "Ecole Nationale Superieure Des Arts Decoratifs (ENSAD) \u00a7 Paris (FR) \u00a7 Education and Research",
+            "value": 20
+        },
+        {
+            "name": "ELISAVA School of Design and Engineering",
+            "info": "ELISAVA School of Design and Engineering \u00a7 Barcelona (ES) \u00a7 Education and Research",
+            "value": 20
+        },
+        {
+            "name": "Estonian Museum of Architecture\u00a0",
+            "info": "Estonian Museum of Architecture\u00a0 \u00a7 Tallinn (EE) \u00a7 Cultural Institutions & Museums",
+            "value": 20
+        },
+        {
+            "name": "ETSAM UPM Madrid\u00a0",
+            "info": "ETSAM UPM Madrid\u00a0 \u00a7 Madrid (ES) \u00a7 ",
+            "value": 20
+        },
+        {
+            "name": "EU Policy Lab",
+            "info": "EU Policy Lab \u00a7 Brussels (BE) \u00a7 Government & Public Institutions",
+            "value": 20
+        },
+        {
+            "name": "Forecast\u00a0",
+            "info": "Forecast\u00a0 \u00a7 DE \u00a7 ",
+            "value": 20
+        },
+        {
+            "name": "Fundacio Mies van der Rohe",
+            "info": "Fundacio Mies van der Rohe \u00a7 Barcelona (ES) \u00a7 ",
+            "value": 20
+        },
+        {
+            "name": "Gaggenau",
+            "info": "Gaggenau \u00a7 Munich (DE) \u00a7 ",
+            "value": 20
+        },
+        {
+            "name": "Haute Ecole des Arts du Rhin (HEAR)",
+            "info": "Haute Ecole des Arts du Rhin (HEAR) \u00a7 FR \u00a7 ",
+            "value": 20
+        },
+        {
+            "name": "HDA \u2013 House of Architecture",
+            "info": "HDA \u2013 House of Architecture \u00a7 AT \u00a7 ",
+            "value": 20
+        },
+        {
+            "name": "HDK Valand - Academy of Art & Design",
+            "info": "HDK Valand - Academy of Art & Design \u00a7 SE \u00a7 Education and Research",
+            "value": 20
+        },
+        {
+            "name": "HEAD Geneva University of Art & Design",
+            "info": "HEAD Geneva University of Art & Design \u00a7 Geneva (CH) \u00a7 Education and Research",
+            "value": 20
+        },
+        {
+            "name": "Helsinki Design Week",
+            "info": "Helsinki Design Week \u00a7 Helsinki (FI) \u00a7 ",
+            "value": 20
+        },
+        {
+            "name": "Hermes",
+            "info": "Hermes \u00a7 Paris (FR) \u00a7 Fashion & Apparel",
+            "value": 20
+        },
+        {
+            "name": "Hongik University",
+            "info": "Hongik University \u00a7 KR \u00a7 Education and Research",
+            "value": 20
+        },
+        {
+            "name": "IAC Group",
+            "info": "IAC Group \u00a7 Luxembourg City (LU) \u00a7 ",
+            "value": 20
+        },
+        {
+            "name": "Iceland Academy of the Arts",
+            "info": "Iceland Academy of the Arts \u00a7 Reykjav\u00edk (IS) \u00a7 Education and Research",
+            "value": 20
+        },
+        {
+            "name": "Institue for Advanced Architecture of Catalonia",
+            "info": "Institue for Advanced Architecture of Catalonia \u00a7 ES \u00a7 ",
+            "value": 20
+        },
+        {
+            "name": "Irish Architecture Foundation\u00a0",
+            "info": "Irish Architecture Foundation\u00a0 \u00a7 IE \u00a7 ",
+            "value": 20
+        },
+        {
+            "name": "Kadir Has University",
+            "info": "Kadir Has University \u00a7 Istanbul (TR) \u00a7 Education and Research",
+            "value": 20
+        },
+        {
+            "name": "KADK",
+            "info": "KADK \u00a7 Copenhagen (DK) \u00a7 Education and Research",
+            "value": 20
+        },
+        {
+            "name": "K\u00c9K\u00a0",
+            "info": "K\u00c9K\u00a0 \u00a7 HU \u00a7 ",
+            "value": 20
+        },
+        {
+            "name": "Kikkerland",
+            "info": "Kikkerland \u00a7 New York City (US) \u00a7 ",
+            "value": 20
+        },
+        {
+            "name": "Konstfack - University College of Art & Design",
+            "info": "Konstfack - University College of Art & Design \u00a7 Stockholm (SE) \u00a7 Education and Research",
+            "value": 20
+        },
+        {
+            "name": "Kosovo Architecture Foundation",
+            "info": "Kosovo Architecture Foundation \u00a7 XK \u00a7 ",
+            "value": 20
+        },
+        {
+            "name": "Kunsthochschule Berlin Weissensee",
+            "info": "Kunsthochschule Berlin Weissensee \u00a7 Berlin (DE) \u00a7 Education and Research",
+            "value": 20
+        },
+        {
+            "name": "Kvadrat",
+            "info": "Kvadrat \u00a7 Ebeltoft (DK) \u00a7 Design & Architecture",
+            "value": 20
+        },
+        {
+            "name": "La Salle College of the Arts",
+            "info": "La Salle College of the Arts \u00a7 SG \u00a7 ",
+            "value": 20
+        },
+        {
+            "name": "LIFT / Days of Architecture",
+            "info": "LIFT / Days of Architecture \u00a7 BA \u00a7 ",
+            "value": 20
+        },
+        {
+            "name": "Lina Community",
+            "info": "Lina Community \u00a7 Ljubljana (SI) \u00a7 Collaboration consortium",
+            "value": 20
+        },
+        {
+            "name": "Lisbon Architecture Triennale",
+            "info": "Lisbon Architecture Triennale \u00a7 PT \u00a7 ",
+            "value": 20
+        },
+        {
+            "name": "Living Lab InnoRenew",
+            "info": "Living Lab InnoRenew \u00a7 SI \u00a7 ",
+            "value": 20
+        },
+        {
+            "name": "Living Summer School (Bolwerk)\u00a0",
+            "info": "Living Summer School (Bolwerk)\u00a0 \u00a7 BE \u00a7 ",
+            "value": 20
+        },
+        {
+            "name": "LVMH",
+            "info": "LVMH \u00a7 Paris (FR) \u00a7 Fashion & Apparel",
+            "value": 20
+        },
+        {
+            "name": "MAXXI National Museum of 21st Century Arts",
+            "info": "MAXXI National Museum of 21st Century Arts \u00a7 IT \u00a7 ",
+            "value": 20
+        },
+        {
+            "name": "METALAB\u00a0",
+            "info": "METALAB\u00a0 \u00a7 UA \u00a7 Cultural Institutions & Museums",
+            "value": 20
+        },
+        {
+            "name": "Microsoft ",
+            "info": "Microsoft  \u00a7 Dublin (IR) \u00a7 Technology & Electronics",
+            "value": 20
+        },
+        {
+            "name": "Muthesius Kunst Hochschule",
+            "info": "Muthesius Kunst Hochschule \u00a7 DE \u00a7 Education and Research",
+            "value": 20
+        },
+        {
+            "name": "Nike",
+            "info": "Nike \u00a7 Hilversum (US) \u00a7 Fashion & Apparel",
+            "value": 20
+        },
+        {
+            "name": "NIO",
+            "info": "NIO \u00a7 Shanghai (CN) \u00a7 Automotive & Transportation",
+            "value": 20
+        },
+        {
+            "name": "ON",
+            "info": "ON \u00a7 Zurich (CH) \u00a7 Fashion & Apparel",
+            "value": 20
+        },
+        {
+            "name": "Oslo Architecture Triennale\u00a0",
+            "info": "Oslo Architecture Triennale\u00a0 \u00a7 Oslo (NO) \u00a7 ",
+            "value": 20
+        },
+        {
+            "name": "\u00d6ssur",
+            "info": "\u00d6ssur \u00a7 Reykjav\u00edk (IS) \u00a7 Technology & Electronics",
+            "value": 20
+        },
+        {
+            "name": "Pacific Northwest College of Art",
+            "info": "Pacific Northwest College of Art \u00a7 US \u00a7 Education and Research",
+            "value": 20
+        },
+        {
+            "name": "Parsons School of Design, The New School",
+            "info": "Parsons School of Design, The New School \u00a7 US \u00a7 Education and Research",
+            "value": 20
+        },
+        {
+            "name": "Peru Moda Craft Council ",
+            "info": "Peru Moda Craft Council  \u00a7 Lima (PE) \u00a7 Fashion, Textiles & Craftsmanship",
+            "value": 20
+        },
+        {
+            "name": "Petit h",
+            "info": "Petit h \u00a7 Paris (FR) \u00a7 Design & Architecture",
+            "value": 20
+        },
+        {
+            "name": "Peugeot",
+            "info": "Peugeot \u00a7 Sochaux (FR) \u00a7 Automotive & Transportation",
+            "value": 20
+        },
+        {
+            "name": "Politehnica University of Bucharest",
+            "info": "Politehnica University of Bucharest \u00a7 RO \u00a7 Education and Research",
+            "value": 20
+        },
+        {
+            "name": "Prada",
+            "info": "Prada \u00a7 Milan (IT) \u00a7 Fashion & Apparel",
+            "value": 20
+        },
+        {
+            "name": "PUNKT",
+            "info": "PUNKT \u00a7 Lugano (CH) \u00a7 Retail & Consumer Goods",
+            "value": 20
+        },
+        {
+            "name": "RADO",
+            "info": "RADO \u00a7 Lengau (CH) \u00a7 Luxury Goods & Jewelry",
+            "value": 20
+        },
+        {
+            "name": "Renault",
+            "info": "Renault \u00a7 Boulogne-Billancourt (FR) \u00a7 Automotive & Transportation",
+            "value": 20
+        },
+        {
+            "name": "R\u00e9union",
+            "info": "R\u00e9union \u00a7 R\u00e9union (RE) \u00a7 Government & Public Institutions",
+            "value": 20
+        },
+        {
+            "name": "Rosenthal",
+            "info": "Rosenthal \u00a7 Selb (DE) \u00a7 ",
+            "value": 20
+        },
+        {
+            "name": "Ruckstuhl",
+            "info": "Ruckstuhl \u00a7 Kloten (CH) \u00a7 Design & Architecture",
+            "value": 20
+        },
+        {
+            "name": "Saga University: Arita School of Ceramics",
+            "info": "Saga University: Arita School of Ceramics \u00a7 JP \u00a7 Education and Research",
+            "value": 20
+        },
+        {
+            "name": "Saint Louis Crystal ",
+            "info": "Saint Louis Crystal  \u00a7 Saint-Louis-l\u00e8s-Bitche (FR) \u00a7 Luxury Goods & Jewelry",
+            "value": 20
+        },
+        {
+            "name": "SAM Swiss Architecture Museum",
+            "info": "SAM Swiss Architecture Museum \u00a7 CH \u00a7 Cultural Institutions & Museums",
+            "value": 20
+        },
+        {
+            "name": "Samsung",
+            "info": "Samsung \u00a7 London (UK) \u00a7 Technology & Electronics",
+            "value": 20
+        },
+        {
+            "name": "schloss hollenegg",
+            "info": "schloss hollenegg \u00a7 Bad Schwanberg (CH) \u00a7 Heritage & Tourism",
+            "value": 20
+        },
+        {
+            "name": "Shenkar College: Azrieli Faculty of Desing",
+            "info": "Shenkar College: Azrieli Faculty of Desing \u00a7 Tel Aviv (IL) \u00a7 Education and Research",
+            "value": 20
+        },
+        {
+            "name": "Smissenbroek",
+            "info": "Smissenbroek \u00a7 Oosterzele (BE) \u00a7 ",
+            "value": 20
+        },
+        {
+            "name": "Swarowski",
+            "info": "Swarowski \u00a7 Wattens (AT) \u00a7 Luxury Goods & Jewelry",
+            "value": 20
+        },
+        {
+            "name": "Swedish School of Textiles of Boras",
+            "info": "Swedish School of Textiles of Boras \u00a7 SE \u00a7 ",
+            "value": 20
+        },
+        {
+            "name": "Tbilisi Architecture Biennale\u00a0",
+            "info": "Tbilisi Architecture Biennale\u00a0 \u00a7 Tbilisi (GE) \u00a7 Cultural Institutions & Museums",
+            "value": 20
+        },
+        {
+            "name": "Tehanu",
+            "info": "Tehanu \u00a7 Kigali (RW) \u00a7 ",
+            "value": 20
+        },
+        {
+            "name": "The HongKong Polytechnic University School of Design",
+            "info": "The HongKong Polytechnic University School of Design \u00a7 Hong Kong (CN) \u00a7 Education and Research",
+            "value": 20
+        },
+        {
+            "name": "The Institute of Intermedia Prague",
+            "info": "The Institute of Intermedia Prague \u00a7 CZ \u00a7 Education and Research",
+            "value": 20
+        },
+        {
+            "name": "The Oslo School of Architecture and Design",
+            "info": "The Oslo School of Architecture and Design \u00a7 Oslo (NO) \u00a7 Education and Research",
+            "value": 20
+        },
+        {
+            "name": "The Royal Academy of Arts\u00a0",
+            "info": "The Royal Academy of Arts\u00a0 \u00a7 London (UK) \u00a7 Education and Research",
+            "value": 20
+        },
+        {
+            "name": "Theatrum Mundi\u00a0",
+            "info": "Theatrum Mundi\u00a0 \u00a7 FR \u00a7 ",
+            "value": 20
+        },
+        {
+            "name": "TimeLab",
+            "info": "TimeLab \u00a7 Ghent (BE) \u00a7 ",
+            "value": 20
+        },
+        {
+            "name": "TU Wien, Institute of Architectural Design",
+            "info": "TU Wien, Institute of Architectural Design \u00a7 Vienna (AT) \u00a7 Education and Research",
+            "value": 20
+        },
+        {
+            "name": "UAU project",
+            "info": "UAU project \u00a7 PL \u00a7 Design Studio",
+            "value": 20
+        },
+        {
+            "name": "UMPRUM",
+            "info": "UMPRUM \u00a7 Prague (CZ) \u00a7 Education and Research",
+            "value": 20
+        },
+        {
+            "name": "Universit\u00e4t der K\u00fcnste Berlin",
+            "info": "Universit\u00e4t der K\u00fcnste Berlin \u00a7 Berlin (DE) \u00a7 Education and Research",
+            "value": 20
+        },
+        {
+            "name": "University City Colleg London - The Bartlett",
+            "info": "University City Colleg London - The Bartlett \u00a7 UK \u00a7 Education and Research",
+            "value": 20
+        },
+        {
+            "name": "University of Colorado, Boulder",
+            "info": "University of Colorado, Boulder \u00a7 US \u00a7 Education and Research",
+            "value": 20
+        },
+        {
+            "name": "University of Ljubljana",
+            "info": "University of Ljubljana \u00a7 SI \u00a7 Education and Research",
+            "value": 20
+        },
+        {
+            "name": "Velux ",
+            "info": "Velux  \u00a7 H\u00f8rsholm (DK) \u00a7 Design & Architecture",
+            "value": 20
+        },
+        {
+            "name": "VI PER Gallery\u00a0",
+            "info": "VI PER Gallery\u00a0 \u00a7 CZ \u00a7 Cultural Institutions & Museums",
+            "value": 20
+        },
+        {
+            "name": "Volkswagen ",
+            "info": "Volkswagen  \u00a7 Wolfsburg (DE) \u00a7 Automotive & Transportation",
+            "value": 20
+        },
+        {
+            "name": "Z33",
+            "info": "Z33 \u00a7 Hasselt (BE) \u00a7 Cultural Institutions & Museums",
+            "value": 20
+        },
+        {
+            "name": "Zuricher Hochschule der Kunste",
+            "info": "Zuricher Hochschule der Kunste \u00a7 Zurich (CH) \u00a7 Education and Research",
+            "value": 20
+        },
+        {
+            "type": "national",
+            "children": [
+                {
+                    "name": "AgriFoodCapital",
+                    "info": "AgriFoodCapital \u00a7 s-Hertogenbosch (NL) \u00a7 Food & Beverage",
+                    "value": 35
+                },
+                {
+                    "name": "Ahrend",
+                    "info": "Ahrend \u00a7 Amsterdam (NL) \u00a7 Retail & Consumer Goods",
+                    "value": 35
+                },
+                {
+                    "name": "Albert Heijn ",
+                    "info": "Albert Heijn  \u00a7 Zaandam (NL) \u00a7 Retail & Consumer Goods",
+                    "value": 35
+                },
+                {
+                    "name": "Avans Hogeschool",
+                    "info": "Avans Hogeschool \u00a7 Breda (NL) \u00a7 Education and Research",
+                    "value": 35
+                },
+                {
+                    "name": "B&C International",
+                    "info": "B&C International \u00a7 Nunspeet (NL) \u00a7 ",
+                    "value": 35
+                },
+                {
+                    "name": "Bacardi",
+                    "info": "Bacardi \u00a7 Amsterdam (NL) \u00a7 ",
+                    "value": 35
+                },
+                {
+                    "name": "Brabantia",
+                    "info": "Brabantia \u00a7 Valkenswaard (NL) \u00a7 Design & Architecture",
+                    "value": 35
+                },
+                {
+                    "name": "Bruns",
+                    "info": "Bruns \u00a7 Bergeijk (NL) \u00a7 Design & Architecture",
+                    "value": 35
+                },
+                {
+                    "name": "By Borre",
+                    "info": "By Borre \u00a7 Amsterdam (NL) \u00a7 ",
+                    "value": 35
+                },
+                {
+                    "name": "Canon",
+                    "info": "Canon \u00a7 s-Hertogenbosch (NL) \u00a7 Technology & Electronics",
+                    "value": 35
+                },
+                {
+                    "name": "De Nieuwe Rentmeester",
+                    "info": "De Nieuwe Rentmeester \u00a7 Assen (NL) \u00a7 Real Estate",
+                    "value": 35
+                },
+                {
+                    "name": "De Parade",
+                    "info": "De Parade \u00a7 Amsterdam (NL) \u00a7 Theaters & Festivals",
+                    "value": 35
+                },
+                {
+                    "name": "Dividere Foundation",
+                    "info": "Dividere Foundation \u00a7 Amsterdam (NL) \u00a7 ",
+                    "value": 35
+                },
+                {
+                    "name": "DOEN",
+                    "info": "DOEN \u00a7 Amsterdam (NL) \u00a7 Government & Public Institutions",
+                    "value": 35
+                },
+                {
+                    "name": "Douwe Egberts ",
+                    "info": "Douwe Egberts  \u00a7 Amsterdam (NL) \u00a7 Food & Beverage",
+                    "value": 35
+                },
+                {
+                    "name": "Drents Archief",
+                    "info": "Drents Archief \u00a7 Assen (NL) \u00a7 Cultural Institutions & Museums",
+                    "value": 35
+                },
+                {
+                    "name": "Dutch Packaging Association",
+                    "info": "Dutch Packaging Association \u00a7 Gouda, South Holland (NL) \u00a7 Government & Public Institutions",
+                    "value": 35
+                },
+                {
+                    "name": "Ecco Leather",
+                    "info": "Ecco Leather \u00a7 Dongen (NL) \u00a7 Fashion, Textiles & Craftsmanship",
+                    "value": 35
+                },
+                {
+                    "name": "EE Labels",
+                    "info": "EE Labels \u00a7 Heeze (NL) \u00a7 Fashion, Textiles & Craftsmanship",
+                    "value": 35
+                },
+                {
+                    "name": "Efteling",
+                    "info": "Efteling \u00a7 Kaatsheuvel (NL) \u00a7 Design & Architecture",
+                    "value": 35
+                },
+                {
+                    "name": "EKWC",
+                    "info": "EKWC \u00a7 Oisterwijk (NL) \u00a7 Cultural Institutions & Museums",
+                    "value": 35
+                },
+                {
+                    "name": "Erasmus Universiteit",
+                    "info": "Erasmus Universiteit \u00a7 Rotterdam (NL) \u00a7 Education and Research",
+                    "value": 35
+                },
+                {
+                    "name": "Everaert Immigration Lawyers",
+                    "info": "Everaert Immigration Lawyers \u00a7 Amsterdam (NL) \u00a7 Legal",
+                    "value": 35
+                },
+                {
+                    "name": "Eye Film Institute",
+                    "info": "Eye Film Institute \u00a7 Amsterdam (NL) \u00a7 Cultural Institutions & Museums",
+                    "value": 35
+                },
+                {
+                    "name": "Fokker",
+                    "info": "Fokker \u00a7 Woensdrecht (NL) \u00a7 Transportation",
+                    "value": 35
+                },
+                {
+                    "name": "Forbo Flooring",
+                    "info": "Forbo Flooring \u00a7 Assendelft (NL) \u00a7 Design & Architecture",
+                    "value": 35
+                },
+                {
+                    "name": "Gemeente Den Haag",
+                    "info": "Gemeente Den Haag \u00a7 The Hague (NL) \u00a7 Government & Public Institutions",
+                    "value": 35
+                },
+                {
+                    "name": "Gemeente Dordrecht",
+                    "info": "Gemeente Dordrecht \u00a7 Dordrecht (NL) \u00a7 Government & Public Institutions",
+                    "value": 35
+                },
+                {
+                    "name": "Gemeente Noorderveld",
+                    "info": "Gemeente Noorderveld \u00a7 Noordenveld (NL) \u00a7 Government & Public Institutions",
+                    "value": 35
+                },
+                {
+                    "name": "Gemeente Valkenswaard",
+                    "info": "Gemeente Valkenswaard \u00a7 Valkenswaard (NL) \u00a7 Government & Public Institutions",
+                    "value": 35
+                },
+                {
+                    "name": "Grand Hotel",
+                    "info": "Grand Hotel \u00a7 Amsterdam (NL) \u00a7 ",
+                    "value": 35
+                },
+                {
+                    "name": "Het Nieuwe Instituut",
+                    "info": "Het Nieuwe Instituut \u00a7 Rotterdam (NL) \u00a7 Cultural Institutions & Museums",
+                    "value": 35
+                },
+                {
+                    "name": "Hivos",
+                    "info": "Hivos \u00a7 The Hague (NL) \u00a7 ",
+                    "value": 35
+                },
+                {
+                    "name": "International Architecture Biennale Rotterdam",
+                    "info": "International Architecture Biennale Rotterdam \u00a7 Rotterdam (NL) \u00a7 Government & Public Institutions",
+                    "value": 35
+                },
+                {
+                    "name": "Keep an Eye Foundation",
+                    "info": "Keep an Eye Foundation \u00a7 Naarden (NL) \u00a7 Cultural Institutions & Museums",
+                    "value": 35
+                },
+                {
+                    "name": "Ketter & Co",
+                    "info": "Ketter & Co \u00a7 Amsterdam (NL) \u00a7 ",
+                    "value": 35
+                },
+                {
+                    "name": "KLM ",
+                    "info": "KLM  \u00a7 Amstelveen (NL) \u00a7 Transportation",
+                    "value": 35
+                },
+                {
+                    "name": "Klokhuis",
+                    "info": "Klokhuis \u00a7 Hilversum (NL) \u00a7 ",
+                    "value": 35
+                },
+                {
+                    "name": "Koninklijk Concertgebouworkest",
+                    "info": "Koninklijk Concertgebouworkest \u00a7 Amsterdam (NL) \u00a7 Theaters & Festivals",
+                    "value": 35
+                },
+                {
+                    "name": "Leiden University",
+                    "info": "Leiden University \u00a7 Leiden (NL) \u00a7 Education and Research",
+                    "value": 35
+                },
+                {
+                    "name": "Leolux",
+                    "info": "Leolux \u00a7 Venlo (NL) \u00a7 ",
+                    "value": 35
+                },
+                {
+                    "name": "LUMC",
+                    "info": "LUMC \u00a7 NL \u00a7 Onderwijs & Onderzoek",
+                    "value": 35
+                },
+                {
+                    "name": "Marres Maastricht",
+                    "info": "Marres Maastricht \u00a7 Maastricht (NL) \u00a7 Cultural Institutions & Museums",
+                    "value": 35
+                },
+                {
+                    "name": "MediaMetic ",
+                    "info": "MediaMetic  \u00a7 Amsterdam (NL) \u00a7 Cultural Institutions & Museums",
+                    "value": 35
+                },
+                {
+                    "name": "Ministerie van Infrastructuur en Milieu",
+                    "info": "Ministerie van Infrastructuur en Milieu \u00a7 The Hague (NL) \u00a7 Government & Public Institutions",
+                    "value": 35
+                },
+                {
+                    "name": "Ministerie van Justitie en Veiligheid",
+                    "info": "Ministerie van Justitie en Veiligheid \u00a7 The Hague (NL) \u00a7 Government & Public Institutions",
+                    "value": 35
+                },
+                {
+                    "name": "Montis",
+                    "info": "Montis \u00a7 Dongen (NL) \u00a7 ",
+                    "value": 35
+                },
+                {
+                    "name": "Nationaal Glasmuseum",
+                    "info": "Nationaal Glasmuseum \u00a7 Leerdam (NL) \u00a7 Cultural Institutions & Museums",
+                    "value": 35
+                },
+                {
+                    "name": "Nationale Hoorstichting",
+                    "info": "Nationale Hoorstichting \u00a7 Amsterdam (NL) \u00a7 ",
+                    "value": 35
+                },
+                {
+                    "name": "Nederlands Interieur Instituut",
+                    "info": "Nederlands Interieur Instituut \u00a7 Amsterdam (NL) \u00a7 ",
+                    "value": 35
+                },
+                {
+                    "name": "Netherlands Food Partnership",
+                    "info": "Netherlands Food Partnership \u00a7 Amsterdam (NL) \u00a7 ",
+                    "value": 35
+                },
+                {
+                    "name": "Nieuw Zwanenburg",
+                    "info": "Nieuw Zwanenburg \u00a7 Oisterwijk (NL) \u00a7 ",
+                    "value": 35
+                },
+                {
+                    "name": "NS",
+                    "info": "NS \u00a7 Utrecht (NL) \u00a7 Automotive & Transportation",
+                    "value": 35
+                },
+                {
+                    "name": "Oc\u00e9 Nederland",
+                    "info": "Oc\u00e9 Nederland \u00a7 s-Hertogenbosch (NL) \u00a7 ",
+                    "value": 35
+                },
+                {
+                    "name": "Openbaar Ministerie",
+                    "info": "Openbaar Ministerie \u00a7 Amsterdam (NL) \u00a7 Government & Public Institutions",
+                    "value": 35
+                },
+                {
+                    "name": "Paleis Het Loo",
+                    "info": "Paleis Het Loo \u00a7 Apeldoorn (NL) \u00a7 Cultural Institutions & Museums",
+                    "value": 35
+                },
+                {
+                    "name": "Phoenix Cultuur",
+                    "info": "Phoenix Cultuur \u00a7 Veghel (NL) \u00a7 Cultural Institutions & Museums",
+                    "value": 35
+                },
+                {
+                    "name": "PI Veenhuizen",
+                    "info": "PI Veenhuizen \u00a7 Veenhuizen, North Holland (NL) \u00a7 Government & Public Institutions",
+                    "value": 35
+                },
+                {
+                    "name": "Pro rail",
+                    "info": "Pro rail \u00a7 Utrecht (NL) \u00a7 Automotive & Transportation",
+                    "value": 35
+                },
+                {
+                    "name": "Prodemos",
+                    "info": "Prodemos \u00a7 The Hague (NL) \u00a7 Government & Public Institutions",
+                    "value": 35
+                },
+                {
+                    "name": "Provincie Drenthe",
+                    "info": "Provincie Drenthe \u00a7 Assen (NL) \u00a7 Government & Public Institutions",
+                    "value": 35
+                },
+                {
+                    "name": "Provincie Noord-Brabant",
+                    "info": "Provincie Noord-Brabant \u00a7 s-Hertogenbosch (NL) \u00a7 Government & Public Institutions",
+                    "value": 35
+                },
+                {
+                    "name": "Provincie Overijssel",
+                    "info": "Provincie Overijssel \u00a7 Zwolle (NL) \u00a7 Government & Public Institutions",
+                    "value": 35
+                },
+                {
+                    "name": "Provincie Zuid-Holland",
+                    "info": "Provincie Zuid-Holland \u00a7 The Hague (NL) \u00a7 Government & Public Institutions",
+                    "value": 35
+                },
+                {
+                    "name": "Rick",
+                    "info": "Rick \u00a7 Weert (NL) \u00a7 ",
+                    "value": 35
+                },
+                {
+                    "name": "Rijkswaterstaat",
+                    "info": "Rijkswaterstaat \u00a7 Utrecht (NL) \u00a7 Government & Public Institutions",
+                    "value": 35
+                },
+                {
+                    "name": "Rijkswaterstaat (en anderen)",
+                    "info": "Rijkswaterstaat (en anderen) \u00a7 NL \u00a7 Government & Public Institutions",
+                    "value": 35
+                },
+                {
+                    "name": "Royal Gazelle",
+                    "info": "Royal Gazelle \u00a7 Dieren (NL) \u00a7 Automotive & Transportation",
+                    "value": 35
+                },
+                {
+                    "name": "Royal Leerdam Crystal ",
+                    "info": "Royal Leerdam Crystal  \u00a7 Leerdam (NL) \u00a7 Luxury Goods & Jewelry",
+                    "value": 35
+                },
+                {
+                    "name": "Royal Mosa",
+                    "info": "Royal Mosa \u00a7 Maastricht (NL) \u00a7 Design & Architecture",
+                    "value": 35
+                },
+                {
+                    "name": "Sandberg Institute",
+                    "info": "Sandberg Institute \u00a7 Amsterdam (NL) \u00a7 Education and Research",
+                    "value": 35
+                },
+                {
+                    "name": "Schoenenkwartier",
+                    "info": "Schoenenkwartier \u00a7 Waalwijk (NL) \u00a7 Cultural Institutions & Museums",
+                    "value": 35
+                },
+                {
+                    "name": "St. Lucas: Vakshool voor Creatief talent",
+                    "info": "St. Lucas: Vakshool voor Creatief talent \u00a7 NL \u00a7 Education and Research",
+                    "value": 35
+                },
+                {
+                    "name": "Staatsbosbeheer",
+                    "info": "Staatsbosbeheer \u00a7 Tilburg (NL) \u00a7 Government & Public Institutions",
+                    "value": 35
+                },
+                {
+                    "name": "Stedelijk museum Schiedam ",
+                    "info": "Stedelijk museum Schiedam  \u00a7 Schiedam (NL) \u00a7 Cultural Institutions & Museums",
+                    "value": 35
+                },
+                {
+                    "name": "SURF ",
+                    "info": "SURF  \u00a7 NL \u00a7 Technology & Electronics",
+                    "value": 35
+                },
+                {
+                    "name": "Textielmuseum | TextielLab",
+                    "info": "Textielmuseum \u00a7 TextielLab \u00a7 Tilburg (NL) \u00a7 Cultural Institutions & Museums",
+                    "value": 35
+                },
+                {
+                    "name": "The New Raw",
+                    "info": "The New Raw \u00a7 NL \u00a7 Design Studio",
+                    "value": 35
+                },
+                {
+                    "name": "TU Delft",
+                    "info": "TU Delft \u00a7 Delft (NL) \u00a7 Education and Research",
+                    "value": 35
+                },
+                {
+                    "name": "Universiteit van Leiden",
+                    "info": "Universiteit van Leiden \u00a7 NL \u00a7 Education and Research",
+                    "value": 35
+                },
+                {
+                    "name": "Vadobag",
+                    "info": "Vadobag \u00a7 Tilburg (NL) \u00a7 ",
+                    "value": 35
+                },
+                {
+                    "name": "Van Gogh National Park",
+                    "info": "Van Gogh National Park \u00a7 s-Hertogenbosch (NL) \u00a7 ",
+                    "value": 35
+                },
+                {
+                    "name": "Vescom",
+                    "info": "Vescom \u00a7 Deurne, Netherlands (NL) \u00a7 Design & Architecture",
+                    "value": 35
+                },
+                {
+                    "name": "Vlisco",
+                    "info": "Vlisco \u00a7 Helmond (NL) \u00a7 Design & Architecture",
+                    "value": 35
+                },
+                {
+                    "name": "Waag Society ",
+                    "info": "Waag Society  \u00a7 Amsterdam (NL) \u00a7 Arts, Innovation & Social Research",
+                    "value": 35
+                },
+                {
+                    "name": "Wageningen University",
+                    "info": "Wageningen University \u00a7 Wageningen (NL) \u00a7 Education and Research",
+                    "value": 35
+                },
+                {
+                    "name": "Waterschap De Dommel",
+                    "info": "Waterschap De Dommel \u00a7 Boxtel (NL) \u00a7 Government & Public Institutions",
+                    "value": 35
+                },
+                {
+                    "name": "Werkwarenhuis",
+                    "info": "Werkwarenhuis \u00a7 s-Hertogenbosch (NL) \u00a7 Design & Architecture",
+                    "value": 35
+                },
+                {
+                    "name": "What Design Can Do",
+                    "info": "What Design Can Do \u00a7 Amsterdam (NL) \u00a7 Cultural Institutions & Museums",
+                    "value": 35
+                },
+                {
+                    "name": "Winter & Company",
+                    "info": "Winter & Company \u00a7 Culemborg (NL) \u00a7 Design & Architecture",
+                    "value": 35
+                },
+                {
+                    "name": "Wooncollectief Gijzenrooi",
+                    "info": "Wooncollectief Gijzenrooi \u00a7 Geldrop (NL) \u00a7 ",
+                    "value": 35
+                },
+                {
+                    "name": "Ymere",
+                    "info": "Ymere \u00a7 Amsterdam (NL) \u00a7 ",
+                    "value": 35
+                },
+                {
+                    "name": "Zuiderzeemuseum",
+                    "info": "Zuiderzeemuseum \u00a7 Enkhuizen (NL) \u00a7 Cultural Institutions & Museums",
+                    "value": 35
+                },
+                {
+                    "type": "local",
+                    "children": [
+                        {
+                            "name": "ASML",
+                            "info": "ASML \u00a7 Veldhoven (NL) \u00a7 Technology & Electronics",
+                            "value": 50
+                        },
+                        {
+                            "name": "Baltan Laboratories ",
+                            "info": "Baltan Laboratories  \u00a7 Eindhoven (NL) \u00a7 Arts, Innovation & Research",
+                            "value": 50
+                        },
+                        {
+                            "name": "Catharina Ziekenhuis",
+                            "info": "Catharina Ziekenhuis \u00a7 Eindhoven (NL) \u00a7 Healthcare & Research",
+                            "value": 50
+                        },
+                        {
+                            "name": "DAF Trucks",
+                            "info": "DAF Trucks \u00a7 Eindhoven (NL) \u00a7 Transportation",
+                            "value": 50
+                        },
+                        {
+                            "name": "De Bijenkorf",
+                            "info": "De Bijenkorf \u00a7 Eindhoven (NL) \u00a7 Retail & Consumer Goods",
+                            "value": 50
+                        },
+                        {
+                            "name": "De Lage Landen",
+                            "info": "De Lage Landen \u00a7 Eindhoven (NL) \u00a7 Legal",
+                            "value": 50
+                        },
+                        {
+                            "name": "DELA",
+                            "info": "DELA \u00a7 Eindhoven (NL) \u00a7 Healthcare & Research",
+                            "value": 50
+                        },
+                        {
+                            "name": "Dutch Design Week",
+                            "info": "Dutch Design Week \u00a7 Eindhoven (NL) \u00a7 Cultural Institutions & Museums",
+                            "value": 50
+                        },
+                        {
+                            "name": "Effenaar",
+                            "info": "Effenaar \u00a7 Eindhoven (NL) \u00a7 Performance & Festivals",
+                            "value": 50
+                        },
+                        {
+                            "name": "Fontys Hogeschool",
+                            "info": "Fontys Hogeschool \u00a7 Eindhoven (NL) \u00a7 Education and Research",
+                            "value": 50
+                        },
+                        {
+                            "name": "Gemeente Eindhoven",
+                            "info": "Gemeente Eindhoven \u00a7 Eindhoven (NL) \u00a7 Government & Public Institutions",
+                            "value": 50
+                        },
+                        {
+                            "name": "GGzE",
+                            "info": "GGzE \u00a7 Eindhoven (NL) \u00a7 Government & Public Institutions",
+                            "value": 50
+                        },
+                        {
+                            "name": "High Tech Campus",
+                            "info": "High Tech Campus \u00a7 Eindhoven (NL) \u00a7 ",
+                            "value": 50
+                        },
+                        {
+                            "name": "Kazerne",
+                            "info": "Kazerne \u00a7 Eindhoven (NL) \u00a7 ",
+                            "value": 50
+                        },
+                        {
+                            "name": "Lecturis",
+                            "info": "Lecturis \u00a7 Eindhoven (NL) \u00a7 ",
+                            "value": 50
+                        },
+                        {
+                            "name": "Leeuwerik",
+                            "info": "Leeuwerik \u00a7 Eindhoven (NL) \u00a7 ",
+                            "value": 50
+                        },
+                        {
+                            "name": "Make Eindhoven",
+                            "info": "Make Eindhoven \u00a7 Eindhoven (NL) \u00a7 ",
+                            "value": 50
+                        },
+                        {
+                            "name": "Marathon Eindhoven",
+                            "info": "Marathon Eindhoven \u00a7 Eindhoven (NL) \u00a7 ",
+                            "value": 50
+                        },
+                        {
+                            "name": "Maxima Medisch Centrum",
+                            "info": "Maxima Medisch Centrum \u00a7 Eindhoven (NL) \u00a7 Healthcare & Research",
+                            "value": 50
+                        },
+                        {
+                            "name": "New Order of Fashion",
+                            "info": "New Order of Fashion \u00a7 Eindhoven (NL) \u00a7 ",
+                            "value": 50
+                        },
+                        {
+                            "name": "Next Nature Network",
+                            "info": "Next Nature Network \u00a7 Eindhoven (NL) \u00a7 ",
+                            "value": 50
+                        },
+                        {
+                            "name": "Philips Design ",
+                            "info": "Philips Design  \u00a7 Eindhoven (NL) \u00a7 Technology & Electronics",
+                            "value": 50
+                        },
+                        {
+                            "name": "Philips Lighting",
+                            "info": "Philips Lighting \u00a7 Eindhoven (NL) \u00a7 Technology & Electronics",
+                            "value": 50
+                        },
+                        {
+                            "name": "PSV",
+                            "info": "PSV \u00a7 Eindhoven (NL) \u00a7 Sports ",
+                            "value": 50
+                        },
+                        {
+                            "name": "Renewi",
+                            "info": "Renewi \u00a7 Eindhoven (NL) \u00a7 ",
+                            "value": 50
+                        },
+                        {
+                            "name": "TU/e",
+                            "info": "TU/e \u00a7 Eindhoven (NL) \u00a7 Education and Research",
+                            "value": 50
+                        },
+                        {
+                            "name": "Van Abbemuseum",
+                            "info": "Van Abbemuseum \u00a7 Eindhoven (NL) \u00a7 Cultural Institutions & Museums",
+                            "value": 50
+                        },
+                        {
+                            "name": "Van Lanschot",
+                            "info": "Van Lanschot \u00a7 Eindhoven (NL) \u00a7 Finances",
+                            "value": 50
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
