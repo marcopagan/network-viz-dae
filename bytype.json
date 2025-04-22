@@ -9,7 +9,7 @@
                     "type": "Industry",
                     "kind": "international",
                     "location": "New York (US)",
-                    "collab": "Social Design, Designers at Border, Masters. ",
+                    "collab": "Social Design, Designers at Border, Masters.",
                     "value": "10"
                 },
                 {
@@ -25,7 +25,7 @@
                     "type": "Industry",
                     "kind": "national",
                     "location": "Sint-Oedenrode (NL)",
-                    "collab": "TBD",
+                    "collab": "Bachelor, Mini Exhibition ",
                     "value": "10"
                 },
                 {
@@ -41,15 +41,15 @@
                     "type": "Industry",
                     "kind": "national",
                     "location": "Zaandam (NL)",
-                    "collab": "TBD",
+                    "collab": "Beyond Retail Borders, Bachelor ",
                     "value": "20"
                 },
                 {
                     "name": "Aliaxis",
                     "type": "Industry",
                     "kind": "international",
-                    "location": "Brussels  (BE)",
-                    "collab": "TBD",
+                    "location": "Brussels (BE)",
+                    "collab": "Man and Activity Department, bathroom eco system. ",
                     "value": "20"
                 },
                 {
@@ -57,7 +57,7 @@
                     "type": "Industry",
                     "kind": "international",
                     "location": "Istanbul (TR)",
-                    "collab": "TBD",
+                    "collab": "Invisible Studio ",
                     "value": "10"
                 },
                 {
@@ -65,7 +65,7 @@
                     "type": "Industry",
                     "kind": "national",
                     "location": "Veldhoven (NL)",
-                    "collab": "TBD",
+                    "collab": "Man and Communication,Bachelor",
                     "value": "20"
                 },
                 {
@@ -73,7 +73,7 @@
                     "type": "Industry",
                     "kind": "national",
                     "location": "Eindhoven (NL)",
-                    "collab": "TBD",
+                    "collab": "Food Non Food Department",
                     "value": "20"
                 },
                 {
@@ -81,7 +81,7 @@
                     "type": "Industry",
                     "kind": "local",
                     "location": "Eindhoven (NL)",
-                    "collab": "TBD",
+                    "collab": "Man and Mobilty ",
                     "value": "20"
                 },
                 {
@@ -89,15 +89,15 @@
                     "type": "Industry",
                     "kind": "local",
                     "location": "Eindhoven (NL)",
-                    "collab": "TBD",
+                    "collab": "Mobility Research Master Course ",
                     "value": "20"
                 },
                 {
                     "name": "DELA",
                     "type": "Industry",
                     "kind": "local",
-                    "location": "Eindhoven  (NL)",
-                    "collab": "TBD",
+                    "location": "Eindhoven (NL)",
+                    "collab": "Man and Wellbeing ",
                     "value": "30"
                 },
                 {
@@ -105,7 +105,7 @@
                     "type": "Industry",
                     "kind": "national",
                     "location": "Friesland (NL)",
-                    "collab": "TBD",
+                    "collab": "",
                     "value": "20"
                 },
                 {
@@ -113,7 +113,7 @@
                     "type": "Industry",
                     "kind": "national",
                     "location": "Dongen (NL)",
-                    "collab": "TBD",
+                    "collab": "Man and Identity ",
                     "value": "20"
                 },
                 {
@@ -121,7 +121,7 @@
                     "type": "Industry",
                     "kind": "national",
                     "location": "Amsterdam (NL)",
-                    "collab": "TBD",
+                    "collab": "Man and Mobility",
                     "value": "10"
                 },
                 {
@@ -129,7 +129,7 @@
                     "type": "Industry",
                     "kind": "international",
                     "location": "Paris (FR)",
-                    "collab": "TBD",
+                    "collab": "Man and Activity",
                     "value": "30"
                 },
                 {
@@ -137,7 +137,7 @@
                     "type": "Industry",
                     "kind": "national",
                     "location": "Amsterdam (NL)",
-                    "collab": "TBD",
+                    "collab": "Man and Living Man and Mobility",
                     "value": "30"
                 },
                 {
@@ -145,7 +145,7 @@
                     "type": "Industry",
                     "kind": "national",
                     "location": "Amsterdam (NL)",
-                    "collab": "TBD",
+                    "collab": "Man and Identity ",
                     "value": "20"
                 },
                 {
@@ -153,7 +153,7 @@
                     "type": "Industry",
                     "kind": "local",
                     "location": "Eindhoven (NL)",
-                    "collab": "TBD",
+                    "collab": "Man and Leisure",
                     "value": "30"
                 },
                 {
@@ -161,7 +161,7 @@
                     "type": "Industry",
                     "kind": "international",
                     "location": "Portland (US)",
-                    "collab": "TBD",
+                    "collab": "Man and Leisure Man and Identity",
                     "value": "10"
                 },
                 {
@@ -169,7 +169,7 @@
                     "type": "Industry",
                     "kind": "national",
                     "location": "Amsterdam (NL)",
-                    "collab": "TBD",
+                    "collab": "",
                     "value": "20"
                 },
                 {
@@ -177,7 +177,7 @@
                     "type": "Industry",
                     "kind": "international",
                     "location": "Reykjav\u00edk (IS)",
-                    "collab": "TBD",
+                    "collab": "Man and Mobility ",
                     "value": "30"
                 },
                 {
@@ -185,7 +185,7 @@
                     "type": "Industry",
                     "kind": "local",
                     "location": "Eindhoven (NL)",
-                    "collab": "TBD",
+                    "collab": "Man and Communication ",
                     "value": "20"
                 },
                 {
@@ -193,7 +193,7 @@
                     "type": "Industry",
                     "kind": "international",
                     "location": "Lengnau (CH)",
-                    "collab": "TBD",
+                    "collab": "Man and Leisure",
                     "value": "30"
                 },
                 {
@@ -201,15 +201,15 @@
                     "type": "Industry",
                     "kind": "international",
                     "location": "Moselle (FR)",
-                    "collab": "TBD",
+                    "collab": "studio thinking hands ",
                     "value": "20"
                 },
                 {
                     "name": "schloss hollenegg",
                     "type": "Industry",
                     "kind": "international",
-                    "location": "hollenegg (CH)",
-                    "collab": "TBD",
+                    "location": "Hollenegg (CH)",
+                    "collab": "Do Make Public Private ",
                     "value": "10"
                 },
                 {
@@ -217,7 +217,7 @@
                     "type": "Industry",
                     "kind": "international",
                     "location": "Tyrol (AT)",
-                    "collab": "TBD",
+                    "collab": "Man and Identity ",
                     "value": "30"
                 },
                 {
@@ -225,7 +225,7 @@
                     "type": "Industry",
                     "kind": "local",
                     "location": "Eindhoven (NL)",
-                    "collab": "TBD",
+                    "collab": "Man and Leisure ",
                     "value": "20"
                 },
                 {
@@ -233,7 +233,7 @@
                     "type": "Industry",
                     "kind": "national",
                     "location": "Amsterdam (NL)",
-                    "collab": "TBD",
+                    "collab": "Bachelor",
                     "value": "30"
                 }
             ]
@@ -246,7 +246,7 @@
                     "type": "Educational",
                     "kind": "international",
                     "location": "Antwerp (BE)",
-                    "collab": "TBD",
+                    "collab": "Man and Activity, European Design Challenge ",
                     "value": "10"
                 },
                 {
@@ -254,7 +254,7 @@
                     "type": "Educational",
                     "kind": "national",
                     "location": "Nunspeet (NL)",
-                    "collab": "TBD",
+                    "collab": "Man and Living Man and Identity ",
                     "value": "30"
                 },
                 {
@@ -262,7 +262,7 @@
                     "type": "Educational",
                     "kind": "international",
                     "location": "Bermuda (BE)",
-                    "collab": "TBD",
+                    "collab": "Man and Leisure",
                     "value": "20"
                 },
                 {
@@ -270,7 +270,7 @@
                     "type": "Educational",
                     "kind": "international",
                     "location": "Cantoria (ES)",
-                    "collab": "TBD",
+                    "collab": "Design Challenge, with schools around the globe. ",
                     "value": "20"
                 },
                 {
@@ -278,7 +278,7 @@
                     "type": "Educational",
                     "kind": "international",
                     "location": "Munich (DE)",
-                    "collab": "TBD",
+                    "collab": "",
                     "value": "10"
                 },
                 {
@@ -286,7 +286,7 @@
                     "type": "Educational",
                     "kind": "national",
                     "location": "Amsterdam (NL)",
-                    "collab": "TBD",
+                    "collab": "Man and Communication",
                     "value": "20"
                 },
                 {
@@ -294,7 +294,7 @@
                     "type": "Educational",
                     "kind": "international",
                     "location": "Helsinki (FI)",
-                    "collab": "TBD",
+                    "collab": "Man and Communication",
                     "value": "30"
                 },
                 {
@@ -302,7 +302,7 @@
                     "type": "Educational",
                     "kind": "international",
                     "location": "Luxembourg (LU)",
-                    "collab": "TBD",
+                    "collab": "Man and Mobility",
                     "value": "30"
                 },
                 {
@@ -310,7 +310,7 @@
                     "type": "Educational",
                     "kind": "local",
                     "location": "Eindhoven (NL)",
-                    "collab": "TBD",
+                    "collab": "Man and Communication",
                     "value": "10"
                 },
                 {
@@ -318,7 +318,7 @@
                     "type": "Educational",
                     "kind": "local",
                     "location": "Eindhoven (NL)",
-                    "collab": "TBD",
+                    "collab": "Studio Thinking Hands ",
                     "value": "10"
                 },
                 {
@@ -326,7 +326,7 @@
                     "type": "Educational",
                     "kind": "local",
                     "location": "Eindhoven (NL)",
-                    "collab": "TBD",
+                    "collab": "Studio Do-Make",
                     "value": "20"
                 },
                 {
@@ -334,7 +334,7 @@
                     "type": "Educational",
                     "kind": "national",
                     "location": "Dongen (NL)",
-                    "collab": "TBD",
+                    "collab": "Man and Living ",
                     "value": "20"
                 },
                 {
@@ -342,7 +342,7 @@
                     "type": "Educational",
                     "kind": "national",
                     "location": "The Hague (NL)",
-                    "collab": "TBD",
+                    "collab": "Bachelor Group Project",
                     "value": "30"
                 },
                 {
@@ -350,7 +350,7 @@
                     "type": "Educational",
                     "kind": "national",
                     "location": "Rotterdam (NL)",
-                    "collab": "TBD",
+                    "collab": "",
                     "value": "30"
                 },
                 {
@@ -358,7 +358,7 @@
                     "type": "Educational",
                     "kind": "national",
                     "location": "Utrecht (NL)",
-                    "collab": "TBD",
+                    "collab": "Master Students",
                     "value": "30"
                 },
                 {
@@ -366,7 +366,7 @@
                     "type": "Educational",
                     "kind": "local",
                     "location": "Eindhoven (NL)",
-                    "collab": "TBD",
+                    "collab": "BA Lesiure ",
                     "value": "10"
                 },
                 {
@@ -374,7 +374,7 @@
                     "type": "Educational",
                     "kind": "national",
                     "location": "Venlo (NL)",
-                    "collab": "TBD",
+                    "collab": "Graduating Students",
                     "value": "20"
                 },
                 {
@@ -382,7 +382,7 @@
                     "type": "Educational",
                     "kind": "international",
                     "location": "Milton Keynes (UK)",
-                    "collab": "TBD",
+                    "collab": "Public Private ",
                     "value": "10"
                 },
                 {
@@ -390,7 +390,7 @@
                     "type": "Educational",
                     "kind": "international",
                     "location": "Rosenthal (DE)",
-                    "collab": "TBD",
+                    "collab": "man and Identity ",
                     "value": "10"
                 },
                 {
@@ -398,7 +398,7 @@
                     "type": "Educational",
                     "kind": "local",
                     "location": "Eindhoven (NL)",
-                    "collab": "TBD",
+                    "collab": "Studio Urgencies",
                     "value": "10"
                 },
                 {
@@ -406,7 +406,7 @@
                     "type": "Educational",
                     "kind": "national",
                     "location": "Wageningen (NL)",
-                    "collab": "TBD",
+                    "collab": "Man and food ",
                     "value": "10"
                 },
                 {
@@ -414,7 +414,7 @@
                     "type": "Educational",
                     "kind": "national",
                     "location": "Weesp (NL)",
-                    "collab": "TBD",
+                    "collab": "Bachelor",
                     "value": "30"
                 }
             ]
@@ -427,7 +427,7 @@
                     "type": "Governmental Institutions",
                     "kind": "international",
                     "location": "Arles (FR)",
-                    "collab": "TBD",
+                    "collab": "Masters Final Year Student Collboration",
                     "value": "10"
                 },
                 {
@@ -435,7 +435,7 @@
                     "type": "Governmental Institutions",
                     "kind": "national",
                     "location": "Amsterdam (NL)",
-                    "collab": "TBD",
+                    "collab": "Man and Wellbeing and Food non Food ",
                     "value": "20"
                 },
                 {
@@ -443,7 +443,7 @@
                     "type": "Governmental Institutions",
                     "kind": "national",
                     "location": "Gouda (NL)",
-                    "collab": "TBD",
+                    "collab": "Man and Mobility Man and Activity",
                     "value": "10"
                 },
                 {
@@ -451,7 +451,7 @@
                     "type": "Governmental Institutions",
                     "kind": "national",
                     "location": "Oisterwijk (NL)",
-                    "collab": "TBD",
+                    "collab": "",
                     "value": "30"
                 },
                 {
@@ -459,7 +459,7 @@
                     "type": "Governmental Institutions",
                     "kind": "national",
                     "location": "Amsterdam (NL)",
-                    "collab": "TBD",
+                    "collab": "Man and Communication",
                     "value": "20"
                 },
                 {
@@ -467,7 +467,7 @@
                     "type": "Governmental Institutions",
                     "kind": "national",
                     "location": "The Hague (NL)",
-                    "collab": "TBD",
+                    "collab": "",
                     "value": "20"
                 },
                 {
@@ -475,7 +475,7 @@
                     "type": "Governmental Institutions",
                     "kind": "national",
                     "location": "Dordrecht (NL)",
-                    "collab": "TBD",
+                    "collab": "",
                     "value": "20"
                 },
                 {
@@ -483,7 +483,7 @@
                     "type": "Governmental Institutions",
                     "kind": "local",
                     "location": "Eindhoven (NL)",
-                    "collab": "TBD",
+                    "collab": "",
                     "value": "30"
                 },
                 {
@@ -491,7 +491,7 @@
                     "type": "Governmental Institutions",
                     "kind": "national",
                     "location": "Noorderveld (NL)",
-                    "collab": "TBD",
+                    "collab": "",
                     "value": "20"
                 },
                 {
@@ -499,7 +499,7 @@
                     "type": "Governmental Institutions",
                     "kind": "national",
                     "location": "Valkenswaard (NL)",
-                    "collab": "TBD",
+                    "collab": "",
                     "value": "30"
                 },
                 {
@@ -507,7 +507,7 @@
                     "type": "Governmental Institutions",
                     "kind": "local",
                     "location": "Eindhoven (NL)",
-                    "collab": "TBD",
+                    "collab": "Collaboration Master Project ",
                     "value": "30"
                 },
                 {
@@ -515,7 +515,7 @@
                     "type": "Governmental Institutions",
                     "kind": "national",
                     "location": "Rotterdam (NL)",
-                    "collab": "TBD",
+                    "collab": "Masters Final Year Student Collboration",
                     "value": "30"
                 },
                 {
@@ -523,7 +523,7 @@
                     "type": "Governmental Institutions",
                     "kind": "national",
                     "location": "Naarden (NL)",
-                    "collab": "TBD",
+                    "collab": "",
                     "value": "20"
                 },
                 {
@@ -531,7 +531,7 @@
                     "type": "Governmental Institutions",
                     "kind": "national",
                     "location": "Maastricht (NL)",
-                    "collab": "TBD",
+                    "collab": "Masters Final Year Student Collaboration",
                     "value": "20"
                 },
                 {
@@ -539,7 +539,7 @@
                     "type": "Governmental Institutions",
                     "kind": "national",
                     "location": "Amsterdam (NL)",
-                    "collab": "TBD",
+                    "collab": "Man and Food",
                     "value": "10"
                 },
                 {
@@ -547,7 +547,7 @@
                     "type": "Governmental Institutions",
                     "kind": "national",
                     "location": "The Hague (NL)",
-                    "collab": "TBD",
+                    "collab": "Man and Public Space",
                     "value": "20"
                 },
                 {
@@ -555,7 +555,7 @@
                     "type": "Governmental Institutions",
                     "kind": "national",
                     "location": "The Hague (NL)",
-                    "collab": "TBD",
+                    "collab": "",
                     "value": "10"
                 },
                 {
@@ -563,7 +563,7 @@
                     "type": "Governmental Institutions",
                     "kind": "national",
                     "location": "Leerdam (NL)",
-                    "collab": "TBD",
+                    "collab": "Ceramics Minor ",
                     "value": "30"
                 },
                 {
@@ -571,7 +571,7 @@
                     "type": "Governmental Institutions",
                     "kind": "international",
                     "location": "Apeldoorn (NL)",
-                    "collab": "TBD",
+                    "collab": "Studio Turn Around ",
                     "value": "30"
                 },
                 {
@@ -579,7 +579,7 @@
                     "type": "Governmental Institutions",
                     "kind": "national",
                     "location": "The Hague (NL)",
-                    "collab": "TBD",
+                    "collab": "Man and Communication Man and Leisure ",
                     "value": "20"
                 },
                 {
@@ -587,7 +587,7 @@
                     "type": "Governmental Institutions",
                     "kind": "national",
                     "location": "Drenthe (NL)",
-                    "collab": "TBD",
+                    "collab": "Public Private ",
                     "value": "20"
                 },
                 {
@@ -595,7 +595,7 @@
                     "type": "Governmental Institutions",
                     "kind": "local",
                     "location": "Eindhoven (NL)",
-                    "collab": "TBD",
+                    "collab": "Man and Public Space ",
                     "value": "10"
                 },
                 {
@@ -603,7 +603,7 @@
                     "type": "Governmental Institutions",
                     "kind": "national",
                     "location": "Schiedam (NL)",
-                    "collab": "TBD",
+                    "collab": "Studio Food Non Food ",
                     "value": "10"
                 },
                 {
@@ -611,7 +611,7 @@
                     "type": "Governmental Institutions",
                     "kind": "national",
                     "location": "Enkhuizen (NL)",
-                    "collab": "TBD",
+                    "collab": "Masters",
                     "value": "10"
                 }
             ]
@@ -624,7 +624,7 @@
                     "type": "Design Stakeholders",
                     "kind": "national",
                     "location": "Valkenswaard (NL)",
-                    "collab": "TBD",
+                    "collab": "Man and Living Man and Identity ",
                     "value": "20"
                 },
                 {
@@ -632,7 +632,7 @@
                     "type": "Design Stakeholders",
                     "kind": "national",
                     "location": "Kaatsheuvel (NL)",
-                    "collab": "TBD",
+                    "collab": "Man and Leisure",
                     "value": "20"
                 },
                 {
@@ -640,7 +640,7 @@
                     "type": "Design Stakeholders",
                     "kind": "national",
                     "location": "Amsterdam (DK)",
-                    "collab": "TBD",
+                    "collab": "Studio Unidentified",
                     "value": "10"
                 },
                 {
@@ -648,7 +648,7 @@
                     "type": "Design Stakeholders",
                     "kind": "international",
                     "location": "Copenhagen (DK)",
-                    "collab": "TBD",
+                    "collab": "Competition/Whole School",
                     "value": "10"
                 }
             ]

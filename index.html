@@ -2,294 +2,55 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Viz [by location]</title>
+  <title>VDAE Network Diagram</title>
+  <link rel="stylesheet" href="network-style.css">
+  <script src="https://d3js.org/d3.v7.min.js"></script>
 </head>
 <body style="background-color: #D5CDDD">
   <style>
-    #legend{position: absolute;font-family: Helvetica, sans-serif; line-height: .75; *{padding: 0; margin: 0;} section{display: flex; gap: 8px; align-items: center;}}
-    #network-tooltip{position: absolute; display: block; opacity: 0; background-color: #583c6e; border-radius: 2px; padding: 8px; max-width: 450px; min-width: 150px; height: auto; font-family: Helvetica, sans-serif; font-size: 16px; color: white;}
-    #tlp-name{display: block; font-weight: bold;}
-    #tlp-loc{display: block; font-style: italic; padding-top: 8px;}
-    #tlp-desc, #tlp-collab{display: block;}
-    #tlp-desc{font-size: 14px;}
-    #tlp-collab::before{content: "Collaborated with: ";}
-    circle, text{cursor: pointer}
+    body{font-family: Helvetica, sans-serif;}
+    #legend{position: absolute;font-family: Helvetica, sans-serif; line-height: .75; padding-top: 12px; *{padding: 0; margin: 0;} section{display: flex; gap: 8px; align-items: center} h1{font-weight: normal; letter-spacing: -.6px;}}
+    #network-select{background-color: #D5CDDD; font-size: 16px;}
+    .select-wrapper{font-size: 16px; display: flex; gap: 8px; align-items: center;}
   </style>
+
   <div id="legend">
-    <p> </p>
-    <h4>Partner type</h4>
+    <h1>DAE Network Diagram</h1>
+    <br><br>
+    <div class="select-wrapper">
+      <p>Show network by: </p>
+      <select id="network-select">
+        <option value="byloc" selected="selected">Location</option>
+        <option value="bytype">Type</option>
+      </select>
+    </div>
+    <br><br>
+
+    <h4 id="legend-title">Partner type</h4>
     <br>
     <section>
       <div style="width: 20px; height: 20px; background-color: #a5b4ce; border: 1px solid #281933;"></div>
-      <p>Industry</p>
+      <p id="legend-op1">Industry</p>
     </section><br>
     <section>
       <div style="width: 20px; height: 20px; background-color: #bca5ce; border: 1px solid #281933;"></div>
-      <p>Educational</p>
+      <p id="legend-op2">Educational</p>
     </section><br>
     <section>
       <div style="width: 20px; height: 20px; background-color: #e5e4c1; border: 1px solid #281933;"></div>
-      <p>Governmental Institutions</p>
+      <p id="legend-op3">Governmental Institutions</p>
     </section><br>
-    <section>
+    <section id="legend-op4-box">
       <div style="width: 20px; height: 20px; background-color: #e29ece; border: 1px solid #281933;"></div>
-      <p>Design Stakeholders</p>
+      <p id="legend-op4">Design Stakeholders</p>
     </section>
-    <br><br>
-    <small>View other viz:</small>
-    <small><a href="bytype.html" style="color: black">Circles by type</a></small>
-    <br><br><br><br>
-    <small>Data might be still incomplete.</small>
+    <small style="position: fixed; bottom: 12px; left: 8px;">Data might be still incomplete.</small>
+
   </div>
+
 
   <div id="network-wrapper"></div>
   <div id="network-tooltip"></div>
-  <script src="https://d3js.org/d3.v7.min.js"></script>
-
-  <script>
-  // GET TOOLTIP
-  let tooltip = document.querySelector("#network-tooltip");
-  let spanName = document.createElement("span");
-  spanName.id = "tlp-name";
-  tooltip.appendChild(spanName);
-  let spanDesc = document.createElement("span");
-  spanDesc.id = "tlp-desc";
-  tooltip.appendChild(spanDesc);
-  let spanLoc = document.createElement("span");
-  spanLoc.id = "tlp-loc";
-  tooltip.appendChild(spanLoc);
-  let spanCollab = document.createElement("span");
-  spanCollab.id = "tlp-collab";
-  tooltip.appendChild(spanCollab);
-    
-
-  d3.json("data.json").then(function(data) {
-    // CONSTANTS
-    const isPrint = false;
-    const width = 2400;
-    const height = 1600;
-    const margin = 20;
-    const cwhite = "#D5CDDD";
-    const clight = "#bca5ce";
-    const cmid = "#734E8F";
-    const cdark = "#281933";
-    const tooltip = d3.select("#network-tooltip");
-    const tlpName = d3.select("#tlp-name");
-    const tlpLoc = d3.select("#tlp-loc");
-    const tlpDesc = d3.select("#tlp-desc");
-    const tlpCollab = d3.select("#tlp-collab");
-
-    const colorByType = {
-      "Industry": "#a5b4ce",
-      "Educational": "#bca5ce",
-      "Governmental Institutions": "#e5e4c1",
-      "Design Stakeholders": "#e29ece"
-    };
-
-    // PACKING
-    const pack = data => d3.pack()
-    .size([width - margin * 2, height - margin * 2])
-    .padding(16)
-    (d3.hierarchy(data)
-    .sum(d => d.value)
-    .sort((a, b) => b.value - a.value));
-    const root = pack(data);
-
-    // SVG SETTINGS
-    const svg = d3.select("#network-wrapper").append("svg")
-      .attr("width", width)
-      .attr("height", height)
-      .attr("viewBox", [-margin, -margin, width, height])
-      .attr("style", `width: 100%; height: auto; font: 16px Helvetica, sans-serif; font-weight: bold; max-width: 1200px`)
-      .attr("text-anchor", "middle");
-
-    // CREATING Gs
-    const node = svg.append("g")
-      .selectAll("g")
-      .data(root.descendants())
-      .join("g")
-      .attr("transform", d => `translate(${d.x},${d.y})`);
-
-    // CREATING CIRCLES
-    const circles = node.append("circle")
-      .attr("r", d => d.r)
-      .attr("fill", d => {
-        const typeNode = d.ancestors().find(a => a.data.type);
-        const topType = typeNode ? typeNode.data.type : null;
-        return d.children ? cwhite : colorByType[topType] || clight;
-      })
-      //.attr("fill", d => d.children ? cwhite : clight)
-      .attr("stroke", d => d.children ? cmid : cdark)
-      .attr("stroke-width", "1px")
-      .on("mouseover", function(event, d) {
-        handleMouseOver(event, d, d3.select(this));
-      })
-      .on("mousemove", handleMouseMove)
-      .on("mouseout", function(event, d) {
-        handleMouseOut(event, d, d3.select(this));
-      });
-
-    // ADDING STATIC LABELS TO MAIN GROUPS
-    const groupLabels = node
-      .filter(d => ["international", "national", "local"].includes(d.data.type))
-      .append("text")
-      .attr("dy", d => d.r - 10)
-      .attr("dx", d => 0)
-      .text(d => d.data.type.toUpperCase())
-      .style("fill", cmid)
-      .style("font-size", "16px")
-      .style("text-anchor", "middle")
-      .style("pointer-events", "none");
-
-
-
-
-    // ADDING THE TEXT LABELS
-    /*const labels = node.filter(d => !d.children)
-      .append("text")
-      .style("text-anchor", "middle")
-      .style("fill", cdark)
-      .selectAll("tspan")
-      //.data(d => d.data.name.split(" "))
-      .data(function(d) {
-        if(!isPrint){
-          let regex = /[a-zA-Z0-9]/g;
-          let text = d.data.name;
-          let textLen = text.match(regex).length;
-          if(textLen >= 14){
-            text = text.substring(0, 14);
-            text += "…";
-          }
-          return text.split(" ")
-        }else{
-          return d.data.name.split(" ")
-        }
-      })
-      .join("tspan")
-      .attr("x", 0)
-      .attr("y", (d, i, nodes) => {
-        const lineHeight = 1.2;
-        const totalHeight = nodes.length * lineHeight;
-        const centerYOffset = (1 - lineHeight) / 2;
-        const startY = -totalHeight / 2 + centerYOffset + (lineHeight * (i + .8));
-        return startY + "em";
-      })
-      .text(d => d)
-      .on("mouseover", function(event, d) {
-        let circle = d3.select(this.parentNode.parentNode).select("circle");
-        handleMouseOver(event, d3.select(this.parentNode.parentNode).datum(), circle);
-      })
-      .on("mousemove", function(event) {
-        handleMouseMove(event);
-      })
-      .on("mouseout", function(event, d) {
-        let circle = d3.select(this.parentNode.parentNode).select("circle");
-        handleMouseOut(event, d3.select(this.parentNode.parentNode).datum(), circle);
-      });*/
-
-      const labels = node.filter(d => !d.children).append("text")
-      .attr("dy", "0.3em")
-      //.text(d => d.data.name.substring(0, d.r / 3))
-      //.text(d => d.data.name)
-      .text(function(d) {
-        let text = d.data.name;
-        let reducedText = d.data.name.substring(0, d.r / 5);
-        if(reducedText != text){
-          reducedText += "…";
-        }
-        return reducedText;
-      })
-      .style("text-anchor", "middle")
-      .style("fill", cdark)
-      .on("mouseover", function(event, d) {
-        let circle = d3.select(this.parentNode).select("circle");
-        handleMouseOver(event, d3.select(this.parentNode).datum(), circle);
-      })
-      .on("mousemove", function(event) {
-        handleMouseMove(event);
-      })
-      .on("mouseout", function(event, d) {
-        let circle = d3.select(this.parentNode).select("circle");
-        handleMouseOut(event, d3.select(this.parentNode).datum(), circle);
-      });
-
-
-
-
-    // FUNCTIONS
-    function handleMouseOver(event, d, element) {
-      if (d.data.name != undefined) {
-        tooltip.transition()
-          .duration(200)
-          .style("opacity", 1);
-        tooltip
-          .style("left", (event.pageX + 10) + "px")
-          .style("top", (event.pageY - 28) + "px");
-        tlpName.html(d.data.name);
-        tlpLoc.html(d.data.location);
-        tlpDesc.html(d.data.type)
-        .style("text-decoration", "underline")
-        .style("text-decoration-color", colorByType[d.data.type]);
-        tlpCollab.html(d.data.collab);
-      }
-      element.attr("fill", d => d.children ? cwhite : cmid)
-    }
-
-    function handleMouseMove(event) {
-      tooltip.style("left", (event.pageX + 10) + "px")
-        .style("top", (event.pageY - 28) + "px");
-    }
-
-    function handleMouseOut(event, d, element) {
-      tooltip.transition()
-        .duration(200)
-        .style("opacity", 0);
-      
-      element.attr("fill", d => {
-        const typeNode = d.ancestors().find(a => a.data.type);
-        const topType = typeNode ? typeNode.data.type : null;
-        return d.children ? cwhite : colorByType[topType] || clight;
-      })
-      //element.attr("fill", d => d.children ? cwhite : clight)
-    }
-
-    return svg.node();
-  });
-
-
-
-
-
-
-
-
-
-
-  // SAVING EVENT AND FUNCTION
-  document.addEventListener('keydown', function(event) {
-    if (event.key === 'e') {
-      console.log("Saving SVG...");
-      exportSVG();
-    }
-  });
-  function exportSVG() {
-  const svgElement = document.querySelector("#network-wrapper svg");
-  if (svgElement) {
-    const svgString = new XMLSerializer().serializeToString(svgElement);
-    const blob = new Blob([svgString], { type: "image/svg+xml;charset=utf-8" });
-    const url = URL.createObjectURL(blob);
-    const downloadLink = document.createElement('a');
-    downloadLink.href = url;
-    downloadLink.download = "network_visualization.svg";
-    document.body.appendChild(downloadLink);
-    downloadLink.click();
-    document.body.removeChild(downloadLink);
-    URL.revokeObjectURL(url);
-    console.log("SVG export complete.");
-  } else {
-    console.error("Cannot find SVG element.");
-  }
-}
-  </script>
+  <script src="network-script.js"></script>
 </body>
 </html>

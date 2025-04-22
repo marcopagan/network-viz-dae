@@ -1,0 +1,7 @@
+#network-tooltip{position: absolute; display: block; opacity: 0; background-color: #583c6e; border-radius: 2px; padding: 8px; max-width: 450px; min-width: 150px; height: auto; font-family: Helvetica, sans-serif; font-size: 16px; color: white;}
+#tlp-name, #tlp-loc, #tlp-desc, #tlp-collab{display: block}
+#tlp-name{font-weight: bold}
+#tlp-loc{font-style: italic; padding-top: 8px}
+#tlp-desc{font-size: 14px}
+#tlp-collab::before{content: "Collaborated with: "}
+circle, text{cursor: pointer}
