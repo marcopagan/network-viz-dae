@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Viz [by location]</title>
+  <title>Viz [by type]</title>
 </head>
 <body style="background-color: #D5CDDD">
   <style>
@@ -11,33 +11,33 @@
     #tlp-name{display: block; font-weight: bold;}
     #tlp-loc{display: block; font-style: italic; padding-top: 8px;}
     #tlp-desc, #tlp-collab{display: block;}
-    #tlp-desc{font-size: 14px;}
+    #tlp-desc{font-size: 12px;}
     #tlp-collab::before{content: "Collaborated with: ";}
     circle, text{cursor: pointer}
   </style>
   <div id="legend">
     <p> </p>
-    <h4>Partner type</h4>
+    <h4>Partner location</h4>
     <br>
     <section>
       <div style="width: 20px; height: 20px; background-color: #a5b4ce; border: 1px solid #281933;"></div>
-      <p>Industry</p>
+      <p>International</p>
     </section><br>
     <section>
       <div style="width: 20px; height: 20px; background-color: #bca5ce; border: 1px solid #281933;"></div>
-      <p>Educational</p>
+      <p>National</p>
     </section><br>
     <section>
       <div style="width: 20px; height: 20px; background-color: #e5e4c1; border: 1px solid #281933;"></div>
-      <p>Governmental Institutions</p>
+      <p>Local</p>
     </section><br>
-    <section>
+    <section style="visibility: hidden;">
       <div style="width: 20px; height: 20px; background-color: #e29ece; border: 1px solid #281933;"></div>
-      <p>Design Stakeholders</p>
+      <p>Extra</p>
     </section>
     <br><br>
     <small>View other viz:</small>
-    <small><a href="bytype.html" style="color: black">Circles by type</a></small>
+    <small><a href="index.html" style="color: black">Circles by location</a></small>
     <br><br><br><br>
     <small>Data might be still incomplete.</small>
   </div>
@@ -63,7 +63,7 @@
   tooltip.appendChild(spanCollab);
     
 
-  d3.json("data.json").then(function(data) {
+  d3.json("data-bytype.json").then(function(data) {
     // CONSTANTS
     const isPrint = false;
     const width = 2400;
@@ -80,10 +80,10 @@
     const tlpCollab = d3.select("#tlp-collab");
 
     const colorByType = {
-      "Industry": "#a5b4ce",
-      "Educational": "#bca5ce",
-      "Governmental Institutions": "#e5e4c1",
-      "Design Stakeholders": "#e29ece"
+      "international": "#a5b4ce",
+      "national": "#bca5ce",
+      "local": "#e5e4c1",
+      "Extra": "#e29ece"
     };
 
     // PACKING
@@ -114,8 +114,8 @@
     const circles = node.append("circle")
       .attr("r", d => d.r)
       .attr("fill", d => {
-        const typeNode = d.ancestors().find(a => a.data.type);
-        const topType = typeNode ? typeNode.data.type : null;
+        const typeNode = d.find(a => a.data.kind);
+        const topType = typeNode ? typeNode.data.kind : null;
         return d.children ? cwhite : colorByType[topType] || clight;
       })
       //.attr("fill", d => d.children ? cwhite : clight)
@@ -131,9 +131,9 @@
 
     // ADDING STATIC LABELS TO MAIN GROUPS
     const groupLabels = node
-      .filter(d => ["international", "national", "local"].includes(d.data.type))
+      .filter(d => d.children ? ["Industry", "Educational", "Governmental Institutions", "Design Stakeholders"].includes(d.data.type) : null)
       .append("text")
-      .attr("dy", d => d.r - 10)
+      .attr("dy", d => -d.r - 10)
       .attr("dx", d => 0)
       .text(d => d.data.type.toUpperCase())
       .style("fill", cmid)
@@ -145,49 +145,7 @@
 
 
     // ADDING THE TEXT LABELS
-    /*const labels = node.filter(d => !d.children)
-      .append("text")
-      .style("text-anchor", "middle")
-      .style("fill", cdark)
-      .selectAll("tspan")
-      //.data(d => d.data.name.split(" "))
-      .data(function(d) {
-        if(!isPrint){
-          let regex = /[a-zA-Z0-9]/g;
-          let text = d.data.name;
-          let textLen = text.match(regex).length;
-          if(textLen >= 14){
-            text = text.substring(0, 14);
-            text += "…";
-          }
-          return text.split(" ")
-        }else{
-          return d.data.name.split(" ")
-        }
-      })
-      .join("tspan")
-      .attr("x", 0)
-      .attr("y", (d, i, nodes) => {
-        const lineHeight = 1.2;
-        const totalHeight = nodes.length * lineHeight;
-        const centerYOffset = (1 - lineHeight) / 2;
-        const startY = -totalHeight / 2 + centerYOffset + (lineHeight * (i + .8));
-        return startY + "em";
-      })
-      .text(d => d)
-      .on("mouseover", function(event, d) {
-        let circle = d3.select(this.parentNode.parentNode).select("circle");
-        handleMouseOver(event, d3.select(this.parentNode.parentNode).datum(), circle);
-      })
-      .on("mousemove", function(event) {
-        handleMouseMove(event);
-      })
-      .on("mouseout", function(event, d) {
-        let circle = d3.select(this.parentNode.parentNode).select("circle");
-        handleMouseOut(event, d3.select(this.parentNode.parentNode).datum(), circle);
-      });*/
-
-      const labels = node.filter(d => !d.children).append("text")
+    const labels = node.filter(d => !d.children).append("text")
       .attr("dy", "0.3em")
       //.text(d => d.data.name.substring(0, d.r / 3))
       //.text(d => d.data.name)
@@ -228,8 +186,6 @@
         tlpName.html(d.data.name);
         tlpLoc.html(d.data.location);
         tlpDesc.html(d.data.type)
-        .style("text-decoration", "underline")
-        .style("text-decoration-color", colorByType[d.data.type]);
         tlpCollab.html(d.data.collab);
       }
       element.attr("fill", d => d.children ? cwhite : cmid)
@@ -246,8 +202,8 @@
         .style("opacity", 0);
       
       element.attr("fill", d => {
-        const typeNode = d.ancestors().find(a => a.data.type);
-        const topType = typeNode ? typeNode.data.type : null;
+        const typeNode = d.find(a => a.data.kind);
+        const topType = typeNode ? typeNode.data.kind : null;
         return d.children ? cwhite : colorByType[topType] || clight;
       })
       //element.attr("fill", d => d.children ? cwhite : clight)

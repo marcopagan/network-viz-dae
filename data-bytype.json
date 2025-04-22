@@ -1,0 +1,657 @@
+{
+    "type": "allcompany",
+    "children": [
+        {
+            "type": "Industry",
+            "children": [
+                {
+                    "name": "ADO Mini",
+                    "type": "Industry",
+                    "kind": "international",
+                    "location": "New York (US)",
+                    "collab": "Social Design, Designers at Border, Masters. ",
+                    "value": "10"
+                },
+                {
+                    "name": "AgriFoodCapital",
+                    "type": "Industry",
+                    "kind": "national",
+                    "location": "Den Bosch (NL)",
+                    "collab": "Bachelor, food non food. ",
+                    "value": "20"
+                },
+                {
+                    "name": "Ahrend",
+                    "type": "Industry",
+                    "kind": "national",
+                    "location": "Sint-Oedenrode (NL)",
+                    "collab": "TBD",
+                    "value": "10"
+                },
+                {
+                    "name": "Air France ",
+                    "type": "Industry",
+                    "kind": "international",
+                    "location": "Paris (FR)",
+                    "collab": "Bachelor Man and Living.",
+                    "value": "20"
+                },
+                {
+                    "name": "Albert Heijn ",
+                    "type": "Industry",
+                    "kind": "national",
+                    "location": "Zaandam (NL)",
+                    "collab": "TBD",
+                    "value": "20"
+                },
+                {
+                    "name": "Aliaxis",
+                    "type": "Industry",
+                    "kind": "international",
+                    "location": "Brussels  (BE)",
+                    "collab": "TBD",
+                    "value": "20"
+                },
+                {
+                    "name": "Ar\u00e7elik",
+                    "type": "Industry",
+                    "kind": "international",
+                    "location": "Istanbul (TR)",
+                    "collab": "TBD",
+                    "value": "10"
+                },
+                {
+                    "name": "ASML",
+                    "type": "Industry",
+                    "kind": "national",
+                    "location": "Veldhoven (NL)",
+                    "collab": "TBD",
+                    "value": "20"
+                },
+                {
+                    "name": "Baltan Laboratories ",
+                    "type": "Industry",
+                    "kind": "national",
+                    "location": "Eindhoven (NL)",
+                    "collab": "TBD",
+                    "value": "20"
+                },
+                {
+                    "name": "Catharina Ziekenhuis",
+                    "type": "Industry",
+                    "kind": "local",
+                    "location": "Eindhoven (NL)",
+                    "collab": "TBD",
+                    "value": "20"
+                },
+                {
+                    "name": "De Lage Landen",
+                    "type": "Industry",
+                    "kind": "local",
+                    "location": "Eindhoven (NL)",
+                    "collab": "TBD",
+                    "value": "20"
+                },
+                {
+                    "name": "DELA",
+                    "type": "Industry",
+                    "kind": "local",
+                    "location": "Eindhoven  (NL)",
+                    "collab": "TBD",
+                    "value": "30"
+                },
+                {
+                    "name": "Douwe Egberts ",
+                    "type": "Industry",
+                    "kind": "national",
+                    "location": "Friesland (NL)",
+                    "collab": "TBD",
+                    "value": "20"
+                },
+                {
+                    "name": "Ecco Leather",
+                    "type": "Industry",
+                    "kind": "national",
+                    "location": "Dongen (NL)",
+                    "collab": "TBD",
+                    "value": "20"
+                },
+                {
+                    "name": "Fokker",
+                    "type": "Industry",
+                    "kind": "national",
+                    "location": "Amsterdam (NL)",
+                    "collab": "TBD",
+                    "value": "10"
+                },
+                {
+                    "name": "Hermes",
+                    "type": "Industry",
+                    "kind": "international",
+                    "location": "Paris (FR)",
+                    "collab": "TBD",
+                    "value": "30"
+                },
+                {
+                    "name": "KLM ",
+                    "type": "Industry",
+                    "kind": "national",
+                    "location": "Amsterdam (NL)",
+                    "collab": "TBD",
+                    "value": "30"
+                },
+                {
+                    "name": "Koninklijk Concertgebouworkest",
+                    "type": "Industry",
+                    "kind": "national",
+                    "location": "Amsterdam (NL)",
+                    "collab": "TBD",
+                    "value": "20"
+                },
+                {
+                    "name": "Maxima Medisch Centrum",
+                    "type": "Industry",
+                    "kind": "local",
+                    "location": "Eindhoven (NL)",
+                    "collab": "TBD",
+                    "value": "30"
+                },
+                {
+                    "name": "Nike",
+                    "type": "Industry",
+                    "kind": "international",
+                    "location": "Portland (US)",
+                    "collab": "TBD",
+                    "value": "10"
+                },
+                {
+                    "name": "NS",
+                    "type": "Industry",
+                    "kind": "national",
+                    "location": "Amsterdam (NL)",
+                    "collab": "TBD",
+                    "value": "20"
+                },
+                {
+                    "name": "\u00d6ssur",
+                    "type": "Industry",
+                    "kind": "international",
+                    "location": "Reykjav\u00edk (IS)",
+                    "collab": "TBD",
+                    "value": "30"
+                },
+                {
+                    "name": "PSV",
+                    "type": "Industry",
+                    "kind": "local",
+                    "location": "Eindhoven (NL)",
+                    "collab": "TBD",
+                    "value": "20"
+                },
+                {
+                    "name": "RADO",
+                    "type": "Industry",
+                    "kind": "international",
+                    "location": "Lengnau (CH)",
+                    "collab": "TBD",
+                    "value": "30"
+                },
+                {
+                    "name": "Saint Louis Crystal ",
+                    "type": "Industry",
+                    "kind": "international",
+                    "location": "Moselle (FR)",
+                    "collab": "TBD",
+                    "value": "20"
+                },
+                {
+                    "name": "schloss hollenegg",
+                    "type": "Industry",
+                    "kind": "international",
+                    "location": "hollenegg (CH)",
+                    "collab": "TBD",
+                    "value": "10"
+                },
+                {
+                    "name": "Swarowski",
+                    "type": "Industry",
+                    "kind": "international",
+                    "location": "Tyrol (AT)",
+                    "collab": "TBD",
+                    "value": "30"
+                },
+                {
+                    "name": "Van Lanschot",
+                    "type": "Industry",
+                    "kind": "local",
+                    "location": "Eindhoven (NL)",
+                    "collab": "TBD",
+                    "value": "20"
+                },
+                {
+                    "name": "Waag Society ",
+                    "type": "Industry",
+                    "kind": "national",
+                    "location": "Amsterdam (NL)",
+                    "collab": "TBD",
+                    "value": "30"
+                }
+            ]
+        },
+        {
+            "type": "Educational",
+            "children": [
+                {
+                    "name": "AS Adventure",
+                    "type": "Educational",
+                    "kind": "international",
+                    "location": "Antwerp (BE)",
+                    "collab": "TBD",
+                    "value": "10"
+                },
+                {
+                    "name": "B&C International",
+                    "type": "Educational",
+                    "kind": "national",
+                    "location": "Nunspeet (NL)",
+                    "collab": "TBD",
+                    "value": "30"
+                },
+                {
+                    "name": "Bacardi",
+                    "type": "Educational",
+                    "kind": "international",
+                    "location": "Bermuda (BE)",
+                    "collab": "TBD",
+                    "value": "20"
+                },
+                {
+                    "name": "Cosentino",
+                    "type": "Educational",
+                    "kind": "international",
+                    "location": "Cantoria (ES)",
+                    "collab": "TBD",
+                    "value": "20"
+                },
+                {
+                    "name": "Gaggenau",
+                    "type": "Educational",
+                    "kind": "international",
+                    "location": "Munich (DE)",
+                    "collab": "TBD",
+                    "value": "10"
+                },
+                {
+                    "name": "Grand Hotel",
+                    "type": "Educational",
+                    "kind": "national",
+                    "location": "Amsterdam (NL)",
+                    "collab": "TBD",
+                    "value": "20"
+                },
+                {
+                    "name": "Helsinki Design Week",
+                    "type": "Educational",
+                    "kind": "international",
+                    "location": "Helsinki (FI)",
+                    "collab": "TBD",
+                    "value": "30"
+                },
+                {
+                    "name": "IAC Group",
+                    "type": "Educational",
+                    "kind": "international",
+                    "location": "Luxembourg (LU)",
+                    "collab": "TBD",
+                    "value": "30"
+                },
+                {
+                    "name": "Lecturis",
+                    "type": "Educational",
+                    "kind": "local",
+                    "location": "Eindhoven (NL)",
+                    "collab": "TBD",
+                    "value": "10"
+                },
+                {
+                    "name": "Leeuwerik",
+                    "type": "Educational",
+                    "kind": "local",
+                    "location": "Eindhoven (NL)",
+                    "collab": "TBD",
+                    "value": "10"
+                },
+                {
+                    "name": "Make Eindhoven",
+                    "type": "Educational",
+                    "kind": "local",
+                    "location": "Eindhoven (NL)",
+                    "collab": "TBD",
+                    "value": "20"
+                },
+                {
+                    "name": "Montis",
+                    "type": "Educational",
+                    "kind": "national",
+                    "location": "Dongen (NL)",
+                    "collab": "TBD",
+                    "value": "20"
+                },
+                {
+                    "name": "Nationale Hoorstichting",
+                    "type": "Educational",
+                    "kind": "national",
+                    "location": "The Hague (NL)",
+                    "collab": "TBD",
+                    "value": "30"
+                },
+                {
+                    "name": "Nederlands Interieur Instituut",
+                    "type": "Educational",
+                    "kind": "national",
+                    "location": "Rotterdam (NL)",
+                    "collab": "TBD",
+                    "value": "30"
+                },
+                {
+                    "name": "Netherlands Food Partnership",
+                    "type": "Educational",
+                    "kind": "national",
+                    "location": "Utrecht (NL)",
+                    "collab": "TBD",
+                    "value": "30"
+                },
+                {
+                    "name": "Next Nature Network",
+                    "type": "Educational",
+                    "kind": "local",
+                    "location": "Eindhoven (NL)",
+                    "collab": "TBD",
+                    "value": "10"
+                },
+                {
+                    "name": "Oc\u00e9 Nederland",
+                    "type": "Educational",
+                    "kind": "national",
+                    "location": "Venlo (NL)",
+                    "collab": "TBD",
+                    "value": "20"
+                },
+                {
+                    "name": "Renewi",
+                    "type": "Educational",
+                    "kind": "international",
+                    "location": "Milton Keynes (UK)",
+                    "collab": "TBD",
+                    "value": "10"
+                },
+                {
+                    "name": "Rosenthal",
+                    "type": "Educational",
+                    "kind": "international",
+                    "location": "Rosenthal (DE)",
+                    "collab": "TBD",
+                    "value": "10"
+                },
+                {
+                    "name": "Van Gogh National Park",
+                    "type": "Educational",
+                    "kind": "local",
+                    "location": "Eindhoven (NL)",
+                    "collab": "TBD",
+                    "value": "10"
+                },
+                {
+                    "name": "Wageningen University",
+                    "type": "Educational",
+                    "kind": "national",
+                    "location": "Wageningen (NL)",
+                    "collab": "TBD",
+                    "value": "10"
+                },
+                {
+                    "name": "Ymere",
+                    "type": "Educational",
+                    "kind": "national",
+                    "location": "Weesp (NL)",
+                    "collab": "TBD",
+                    "value": "30"
+                }
+            ]
+        },
+        {
+            "type": "Governmental Institutions",
+            "children": [
+                {
+                    "name": "Atelier LUMA",
+                    "type": "Governmental Institutions",
+                    "kind": "international",
+                    "location": "Arles (FR)",
+                    "collab": "TBD",
+                    "value": "10"
+                },
+                {
+                    "name": "DOEN",
+                    "type": "Governmental Institutions",
+                    "kind": "national",
+                    "location": "Amsterdam (NL)",
+                    "collab": "TBD",
+                    "value": "20"
+                },
+                {
+                    "name": "Dutch Packaging Association",
+                    "type": "Governmental Institutions",
+                    "kind": "national",
+                    "location": "Gouda (NL)",
+                    "collab": "TBD",
+                    "value": "10"
+                },
+                {
+                    "name": "EKWC",
+                    "type": "Governmental Institutions",
+                    "kind": "national",
+                    "location": "Oisterwijk (NL)",
+                    "collab": "TBD",
+                    "value": "30"
+                },
+                {
+                    "name": "Eye Film Institute",
+                    "type": "Governmental Institutions",
+                    "kind": "national",
+                    "location": "Amsterdam (NL)",
+                    "collab": "TBD",
+                    "value": "20"
+                },
+                {
+                    "name": "Gemeente Den Haag",
+                    "type": "Governmental Institutions",
+                    "kind": "national",
+                    "location": "The Hague (NL)",
+                    "collab": "TBD",
+                    "value": "20"
+                },
+                {
+                    "name": "Gemeente Dordrecht",
+                    "type": "Governmental Institutions",
+                    "kind": "national",
+                    "location": "Dordrecht (NL)",
+                    "collab": "TBD",
+                    "value": "20"
+                },
+                {
+                    "name": "Gemeente Eindhoven",
+                    "type": "Governmental Institutions",
+                    "kind": "local",
+                    "location": "Eindhoven (NL)",
+                    "collab": "TBD",
+                    "value": "30"
+                },
+                {
+                    "name": "Gemeente Noorderveld",
+                    "type": "Governmental Institutions",
+                    "kind": "national",
+                    "location": "Noorderveld (NL)",
+                    "collab": "TBD",
+                    "value": "20"
+                },
+                {
+                    "name": "Gemeente Valkenswaard",
+                    "type": "Governmental Institutions",
+                    "kind": "national",
+                    "location": "Valkenswaard (NL)",
+                    "collab": "TBD",
+                    "value": "30"
+                },
+                {
+                    "name": "GGzE",
+                    "type": "Governmental Institutions",
+                    "kind": "local",
+                    "location": "Eindhoven (NL)",
+                    "collab": "TBD",
+                    "value": "30"
+                },
+                {
+                    "name": "Het Nieuwe Instituut",
+                    "type": "Governmental Institutions",
+                    "kind": "national",
+                    "location": "Rotterdam (NL)",
+                    "collab": "TBD",
+                    "value": "30"
+                },
+                {
+                    "name": "Keep an Eye Foundation",
+                    "type": "Governmental Institutions",
+                    "kind": "national",
+                    "location": "Naarden (NL)",
+                    "collab": "TBD",
+                    "value": "20"
+                },
+                {
+                    "name": "Marres Maastricht",
+                    "type": "Governmental Institutions",
+                    "kind": "national",
+                    "location": "Maastricht (NL)",
+                    "collab": "TBD",
+                    "value": "20"
+                },
+                {
+                    "name": "MediaMetic ",
+                    "type": "Governmental Institutions",
+                    "kind": "national",
+                    "location": "Amsterdam (NL)",
+                    "collab": "TBD",
+                    "value": "10"
+                },
+                {
+                    "name": "Ministerie van Infrastructuur en Milieu",
+                    "type": "Governmental Institutions",
+                    "kind": "national",
+                    "location": "The Hague (NL)",
+                    "collab": "TBD",
+                    "value": "20"
+                },
+                {
+                    "name": "Ministerie van Justitie en Veiligheid",
+                    "type": "Governmental Institutions",
+                    "kind": "national",
+                    "location": "The Hague (NL)",
+                    "collab": "TBD",
+                    "value": "10"
+                },
+                {
+                    "name": "Nationaal Glasmuseum",
+                    "type": "Governmental Institutions",
+                    "kind": "national",
+                    "location": "Leerdam (NL)",
+                    "collab": "TBD",
+                    "value": "30"
+                },
+                {
+                    "name": "Paleis Het Loo",
+                    "type": "Governmental Institutions",
+                    "kind": "international",
+                    "location": "Apeldoorn (NL)",
+                    "collab": "TBD",
+                    "value": "30"
+                },
+                {
+                    "name": "Prodemos",
+                    "type": "Governmental Institutions",
+                    "kind": "national",
+                    "location": "The Hague (NL)",
+                    "collab": "TBD",
+                    "value": "20"
+                },
+                {
+                    "name": "Provincie Drenthe",
+                    "type": "Governmental Institutions",
+                    "kind": "national",
+                    "location": "Drenthe (NL)",
+                    "collab": "TBD",
+                    "value": "20"
+                },
+                {
+                    "name": "Provincie Noord-Brabant",
+                    "type": "Governmental Institutions",
+                    "kind": "local",
+                    "location": "Eindhoven (NL)",
+                    "collab": "TBD",
+                    "value": "10"
+                },
+                {
+                    "name": "Stedelijk museum Schiedam ",
+                    "type": "Governmental Institutions",
+                    "kind": "national",
+                    "location": "Schiedam (NL)",
+                    "collab": "TBD",
+                    "value": "10"
+                },
+                {
+                    "name": "Zuiderzeemuseum",
+                    "type": "Governmental Institutions",
+                    "kind": "national",
+                    "location": "Enkhuizen (NL)",
+                    "collab": "TBD",
+                    "value": "10"
+                }
+            ]
+        },
+        {
+            "type": "Design Stakeholders",
+            "children": [
+                {
+                    "name": "Brabantia",
+                    "type": "Design Stakeholders",
+                    "kind": "national",
+                    "location": "Valkenswaard (NL)",
+                    "collab": "TBD",
+                    "value": "20"
+                },
+                {
+                    "name": "Efteling",
+                    "type": "Design Stakeholders",
+                    "kind": "national",
+                    "location": "Kaatsheuvel (NL)",
+                    "collab": "TBD",
+                    "value": "20"
+                },
+                {
+                    "name": "Kvadrat",
+                    "type": "Design Stakeholders",
+                    "kind": "national",
+                    "location": "Amsterdam (DK)",
+                    "collab": "TBD",
+                    "value": "10"
+                },
+                {
+                    "name": "Velux ",
+                    "type": "Design Stakeholders",
+                    "kind": "international",
+                    "location": "Copenhagen (DK)",
+                    "collab": "TBD",
+                    "value": "10"
+                }
+            ]
+        }
+    ]
+}

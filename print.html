@@ -2,44 +2,33 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Viz [by location]</title>
+  <title>Viz</title>
 </head>
 <body style="background-color: #D5CDDD">
   <style>
     #legend{position: absolute;font-family: Helvetica, sans-serif; line-height: .75; *{padding: 0; margin: 0;} section{display: flex; gap: 8px; align-items: center;}}
-    #network-tooltip{position: absolute; display: block; opacity: 0; background-color: #583c6e; border-radius: 2px; padding: 8px; max-width: 450px; min-width: 150px; height: auto; font-family: Helvetica, sans-serif; font-size: 16px; color: white;}
+    #network-tooltip{position: absolute; display: block; opacity: 0; background-color: #583c6e; border-radius: 2px; padding: 8px; max-width: 450px; height: auto; font-family: Helvetica, sans-serif; font-size: 16px; color: white;}
     #tlp-name{display: block; font-weight: bold;}
-    #tlp-loc{display: block; font-style: italic; padding-top: 8px;}
-    #tlp-desc, #tlp-collab{display: block;}
-    #tlp-desc{font-size: 14px;}
-    #tlp-collab::before{content: "Collaborated with: ";}
+    #tlp-loc{display: block; padding-top: 8px;}
+    #tlp-desc{display: block; font-style: italic;}
     circle, text{cursor: pointer}
   </style>
   <div id="legend">
     <p> </p>
-    <h4>Partner type</h4>
+    <h4>Network Legend</h4>
     <br>
     <section>
       <div style="width: 20px; height: 20px; background-color: #a5b4ce; border: 1px solid #281933;"></div>
-      <p>Industry</p>
+      <p>International</p>
     </section><br>
     <section>
       <div style="width: 20px; height: 20px; background-color: #bca5ce; border: 1px solid #281933;"></div>
-      <p>Educational</p>
+      <p>National</p>
     </section><br>
     <section>
-      <div style="width: 20px; height: 20px; background-color: #e5e4c1; border: 1px solid #281933;"></div>
-      <p>Governmental Institutions</p>
-    </section><br>
-    <section>
-      <div style="width: 20px; height: 20px; background-color: #e29ece; border: 1px solid #281933;"></div>
-      <p>Design Stakeholders</p>
+      <div style="width: 20px; height: 20px; background-color: #cea5c2; border: 1px solid #281933;"></div>
+      <p>Local</p>
     </section>
-    <br><br>
-    <small>View other viz:</small>
-    <small><a href="bytype.html" style="color: black">Circles by type</a></small>
-    <br><br><br><br>
-    <small>Data might be still incomplete.</small>
   </div>
 
   <div id="network-wrapper"></div>
@@ -58,16 +47,13 @@
   let spanLoc = document.createElement("span");
   spanLoc.id = "tlp-loc";
   tooltip.appendChild(spanLoc);
-  let spanCollab = document.createElement("span");
-  spanCollab.id = "tlp-collab";
-  tooltip.appendChild(spanCollab);
     
 
   d3.json("data.json").then(function(data) {
     // CONSTANTS
-    const isPrint = false;
-    const width = 2400;
-    const height = 1600;
+    const isPrint = true;
+    const width = 3200;
+    const height = 2400;
     const margin = 20;
     const cwhite = "#D5CDDD";
     const clight = "#bca5ce";
@@ -77,13 +63,11 @@
     const tlpName = d3.select("#tlp-name");
     const tlpLoc = d3.select("#tlp-loc");
     const tlpDesc = d3.select("#tlp-desc");
-    const tlpCollab = d3.select("#tlp-collab");
 
     const colorByType = {
-      "Industry": "#a5b4ce",
-      "Educational": "#bca5ce",
-      "Governmental Institutions": "#e5e4c1",
-      "Design Stakeholders": "#e29ece"
+      international: "#a5b4ce",
+      national: "#bca5ce", 
+      local: "#cea5c2"
     };
 
     // PACKING
@@ -129,23 +113,11 @@
         handleMouseOut(event, d, d3.select(this));
       });
 
-    // ADDING STATIC LABELS TO MAIN GROUPS
-    const groupLabels = node
-      .filter(d => ["international", "national", "local"].includes(d.data.type))
-      .append("text")
-      .attr("dy", d => d.r - 10)
-      .attr("dx", d => 0)
-      .text(d => d.data.type.toUpperCase())
-      .style("fill", cmid)
-      .style("font-size", "16px")
-      .style("text-anchor", "middle")
-      .style("pointer-events", "none");
-
 
 
 
     // ADDING THE TEXT LABELS
-    /*const labels = node.filter(d => !d.children)
+    const labels = node.filter(d => !d.children)
       .append("text")
       .style("text-anchor", "middle")
       .style("fill", cdark)
@@ -185,32 +157,6 @@
       .on("mouseout", function(event, d) {
         let circle = d3.select(this.parentNode.parentNode).select("circle");
         handleMouseOut(event, d3.select(this.parentNode.parentNode).datum(), circle);
-      });*/
-
-      const labels = node.filter(d => !d.children).append("text")
-      .attr("dy", "0.3em")
-      //.text(d => d.data.name.substring(0, d.r / 3))
-      //.text(d => d.data.name)
-      .text(function(d) {
-        let text = d.data.name;
-        let reducedText = d.data.name.substring(0, d.r / 5);
-        if(reducedText != text){
-          reducedText += "…";
-        }
-        return reducedText;
-      })
-      .style("text-anchor", "middle")
-      .style("fill", cdark)
-      .on("mouseover", function(event, d) {
-        let circle = d3.select(this.parentNode).select("circle");
-        handleMouseOver(event, d3.select(this.parentNode).datum(), circle);
-      })
-      .on("mousemove", function(event) {
-        handleMouseMove(event);
-      })
-      .on("mouseout", function(event, d) {
-        let circle = d3.select(this.parentNode).select("circle");
-        handleMouseOut(event, d3.select(this.parentNode).datum(), circle);
       });
 
 
@@ -218,19 +164,16 @@
 
     // FUNCTIONS
     function handleMouseOver(event, d, element) {
-      if (d.data.name != undefined) {
+      if (d.data.info != undefined) {
         tooltip.transition()
           .duration(200)
           .style("opacity", 1);
         tooltip
           .style("left", (event.pageX + 10) + "px")
           .style("top", (event.pageY - 28) + "px");
-        tlpName.html(d.data.name);
-        tlpLoc.html(d.data.location);
-        tlpDesc.html(d.data.type)
-        .style("text-decoration", "underline")
-        .style("text-decoration-color", colorByType[d.data.type]);
-        tlpCollab.html(d.data.collab);
+        tlpName.html(d.data.info.split("§")[0]);
+        tlpLoc.html(d.data.info.split("§")[1]);
+        tlpDesc.html(d.data.info.split("§")[2]);
       }
       element.attr("fill", d => d.children ? cwhite : cmid)
     }
